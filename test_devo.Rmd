@@ -1,0 +1,44 @@
+---
+title: "Test Devotional"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r global chunk, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.width = 3,
+  fig.asp = .3,
+  out.width = "90%",
+  echo = F
+)
+```
+
+In this devotional you can expect to get an idea of what a real devotional will look like on our site. 
+
+```{r, out.width = "300px", ali}
+
+knitr::include_graphics("/Users/stevenlawrence/Downloads/nbnhyouthparty.jpg")
+
+```
+
+
+## Day 1
+- asldfjals;kdfj
+- askdlfja;lskdjfalskdf
+
+### Blurb
+* a;sldkfjals;kdfjakl;sd
+* as;ldkfjals;kdfja;lk
+* a;slkdjfals;kdfjakl;
+
+## Day 2
+
+## Day 3
+
+## Other Content
+- Link to FB
+- Link to IG
+- Link to [Youtube channel](https://www.youtube.com/channel/UCnJ8J2Py2yPHBZ42_EgM-Rw/videos)
