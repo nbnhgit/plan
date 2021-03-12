@@ -20,7 +20,7 @@ In this devotional you can expect to get an idea of what a real devotional will 
 
 ```{r, out.width = "300px", ali}
 
-knitr::include_graphics("/Users/stevenlawrence/Downloads/nbnhyouthparty.jpg")
+# knitr::include_graphics("/Users/stevenlawrence/Downloads/nbnhyouthparty.jpg")
 
 ```
 
@@ -34,7 +34,15 @@ knitr::include_graphics("/Users/stevenlawrence/Downloads/nbnhyouthparty.jpg")
 * as;ldkfjals;kdfja;lk
 * a;slkdjfals;kdfjakl;
 
-## Day 2
+## Day 2{.tabset .tabset-pills}
+
+### Point one
+* Detail one
+* Detail two
+
+### Point Two
+* Detail one
+* Detail two
 
 ## Day 3
 
