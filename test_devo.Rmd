@@ -1,10 +1,42 @@
 ---
-title: "Test Devotional"
+title: "Humble Not Silent"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
+
+<style type="text/css">
+  
+/* Whole document: */
+body  { 
+  font-family: Arial Narrow;
+  font-size: 20pt;
+}
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 30pt;
+ }
+ 
+ /* TAB COLORS */
+ 
+.color-tabs>.nav-pills>li:nth-child(1){
+           background: #65C859;
+           font-color: #ffffff;
+           }
+.color-tabs>.nav-pills>li:nth-child(2){
+        background:red;
+        }
+.color-tabs>.nav-pills>li:nth-child(3){
+        background:green
+        }
+.color-tabs>.nav-pills>li:nth-child(4){
+       background:yellow;
+       }
+ 
+ 
+ 
+</style>
 
 ```{r global chunk, echo = FALSE}
 knitr::opts_chunk$set(
@@ -25,16 +57,35 @@ In this devotional you can expect to get an idea of what a real devotional will 
 ```
 
 
-## Day 1
-- asldfjals;kdfj
-- askdlfja;lskdjfalskdf
+## Devotional Content {.tabset .tabset-pills}
 
-### Blurb
+
+### Day 1: Equipped {.tabset .tabset-pills .tabset-fade .color-tabs}
+
+#### Scripture Reading
+
+1. After the death of Moses the servant of the Lord, the Lordsaid to Joshua son of Nun, Moses’ aide: 
+2. “Moses my servant is dead. Now then, you and all these people, get ready to cross the Jordan River into the land I am about to give to them—to the Israelites. 3. I will give you every place where you set your foot, as I promised Moses. 
+4. Your territory will extend from the desert to Lebanon, and from the great river, the Euphrates—all the Hittite country—to the Mediterranean Sea in the west. 
+5. No one will be able to stand against you all the days of your life. As I was with Moses, so I will be with you; I will never leave you nor forsake you. 
+6. Be strong and courageous, because you will lead these people to inherit the land I swore to their ancestors to give them.
+7. “Be strong and very courageous. Be careful to obey all the law my servant Moses gave you; do not turn from it to the right or to the left, that you may be successful wherever you go. 
+8. Keep this Book of the Law always on your lips; meditate on it day and night, so that you may be careful to do everything written in it. Then you will be prosperous and successful. 
+9. Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lordyour God will be with you wherever you go.”
+
+#### Activation
+Joshua was equipped for who he was, and where he was going. You must know that you are equipped for where you are going. One must pay close attention to gain the necessary experiences and time for development before it is required of them. Take a moment and consider what area of life you believe you are being equipped for whether that is for parenting, being some form of leader, or simply putting the pieces of your life back together. All require some form of equipping. I want to let you know, that there is more in you, more for you, and more with you than against you. Believe again in with a humble heart that God intends for you to reach your goals.
+
+#### Humility Unlocked
 * a;sldkfjals;kdfjakl;sd
 * as;ldkfjals;kdfja;lk
 * a;slkdjfals;kdfjakl;
 
-## Day 2{.tabset .tabset-pills}
+#### Elevation
+*
+*
+
+### Day 2{.tabset .tabset-pills}
 
 ### Point one
 * Detail one
