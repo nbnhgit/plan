@@ -18,11 +18,15 @@ h1,h2,h3,h4,h5,h6{
   font-size: 30pt;
  }
  
+ @media screen and (min-width: 100px) and (max-width:768px) { 
+    .video iframe {height:200px}
+}
+ 
  /* TAB COLORS */
  
 .color-tabs>.nav-pills>li:nth-child(1){
            background: #65C859;
-           font-color: #ffffff;
+           font-color: #000000;
            }
 .color-tabs>.nav-pills>li:nth-child(2){
         background:red;
@@ -33,7 +37,6 @@ h1,h2,h3,h4,h5,h6{
 .color-tabs>.nav-pills>li:nth-child(4){
        background:yellow;
        }
- 
  
  
 </style>
@@ -62,7 +65,7 @@ In this devotional you can expect to get an idea of what a real devotional will 
 
 ### Day 1: Equipped {.tabset .tabset-pills .tabset-fade .color-tabs}
 
-#### Scripture Reading
+#### Scripture
 
 1. After the death of Moses the servant of the Lord, the Lordsaid to Joshua son of Nun, Moses’ aide: 
 2. “Moses my servant is dead. Now then, you and all these people, get ready to cross the Jordan River into the land I am about to give to them—to the Israelites. 3. I will give you every place where you set your foot, as I promised Moses. 
@@ -77,14 +80,20 @@ In this devotional you can expect to get an idea of what a real devotional will 
 Joshua was equipped for who he was, and where he was going. You must know that you are equipped for where you are going. One must pay close attention to gain the necessary experiences and time for development before it is required of them. Take a moment and consider what area of life you believe you are being equipped for whether that is for parenting, being some form of leader, or simply putting the pieces of your life back together. All require some form of equipping. I want to let you know, that there is more in you, more for you, and more with you than against you. Believe again in with a humble heart that God intends for you to reach your goals.
 
 #### Humility Unlocked
-* a;sldkfjals;kdfjakl;sd
+* Obedience
 * as;ldkfjals;kdfja;lk
 * a;slkdjfals;kdfjakl;
 
-#### Elevation
-*
-*
+***
+#### Video
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/FZgVCdgLTYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
 
+
+```
+***
 ### Day 2{.tabset .tabset-pills}
 
 ### Point one
