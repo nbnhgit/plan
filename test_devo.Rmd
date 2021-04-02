@@ -25,17 +25,18 @@ h1,h2,h3,h4,h5,h6{
  /* TAB COLORS */
  
 .color-tabs>.nav-pills>li:nth-child(1){
-           background: #65C859;
+           background: #2CE9CC;
            font-color: #000000;
            }
 .color-tabs>.nav-pills>li:nth-child(2){
-        background:red;
+        background:#2CE9CC;
         }
 .color-tabs>.nav-pills>li:nth-child(3){
-        background:green
+        background:#2CE9CC;
+        font-color: #ffffff
         }
 .color-tabs>.nav-pills>li:nth-child(4){
-       background:yellow;
+       background:#2CE9CC;
        }
  
  
@@ -81,18 +82,9 @@ Joshua was equipped for who he was, and where he was going. You must know that y
 
 #### Humility Unlocked
 * Obedience
-* as;ldkfjals;kdfja;lk
-* a;slkdjfals;kdfjakl;
+* Sacrifice
+* Humble
 
-***
-#### Video
-```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
-cat(
-'<iframe width="560" height="315" src="https://www.youtube.com/embed/FZgVCdgLTYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-)
-
-
-```
 ***
 ### Day 2{.tabset .tabset-pills}
 
@@ -104,7 +96,6 @@ cat(
 * Detail one
 * Detail two
 
-## Day 3
 
 ## Other Content
 - Link to FB
