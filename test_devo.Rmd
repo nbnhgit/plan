@@ -40,6 +40,7 @@ h1,h2,h3,h4,h5,h6{
        background:#e6f5ff;
        }
  
+
 </style>
 
 ```{r global chunk, echo = FALSE}
@@ -70,7 +71,9 @@ In this devotional you can expect to get an idea of what a real devotional will 
 
 ***
 
-#### Scripture
+#### 
+
+<h3>**Scripture**</h3>
 
 Joshua 1: 1- 9
 
@@ -92,7 +95,9 @@ Joshua 1: 1- 9
 
 9. Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lordyour God will be with you wherever you go.”
 
-#### Activation
+#### 
+<h3>**Activation**</h3>
+
 * Joshua was equipped for who he was, and where he was going. 
 
 * You must know that you are equipped for where you are going.
@@ -105,7 +110,9 @@ Joshua 1: 1- 9
 
 * Believe again with a humble heart that God intends for you to reach your goals.
 
-#### Humility Unlocked
+#### 
+<h3>**Humility Unlocked**</h3>
+
 * Having ability does not render the need for knowledge and mentorship irrelevant.
 
 * It takes humility to be able to remain. 
@@ -116,7 +123,9 @@ Joshua 1: 1- 9
 
 ***
 
-#### Scripture
+#### 
+<h3>**Scripture**</h3>
+
 Psalms 23
 
 1. The Lord is my shepherd, I lack nothing.
@@ -145,7 +154,9 @@ all the days of my life,
 and I will dwell in the house of the Lord
 forever.
 
-#### Pride’s Dangers
+#### 
+<h3>**Pride’s Dangers**</h3>
+
 * Much of life isn’t a coincidence
 
 * Pride makes it difficult to flee from danger because we don’t see it coming 
@@ -156,7 +167,8 @@ forever.
 
 * Pride will cause you to change your definition of evil and what should be abhorrent
 
-#### True Humility
+#### 
+<h3>**True Humility**</h3>
 * True humility is found out of condemnation
 
 * True humility is in remaining teachable 
@@ -169,7 +181,8 @@ forever.
 
 ***
 
-#### Scripture
+#### 
+<h3>**Scripture**</h3>
 
 Philipians 2: 3 - 14 
 
@@ -197,7 +210,9 @@ Philipians 2: 3 - 14
 
 14. I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus.
 
-#### Value of Humility
+#### 
+<h3>**Value of Humility**</h3>
+
 * Humility takes obedience 
 
 * In our relationship with other we should have the mindset of Christ
@@ -208,7 +223,9 @@ Philipians 2: 3 - 14
 
 * It is very important to obey your leaders 
 
-#### The Humility of the Cross
+#### 
+<h3>**The Humility of the Cross**</h3>
+
 * You are not righteous by your own efforts, but in believing in Jesus Christ, you take on His righteousness 
 
 * Because Jesus humbled himself, God exalted Him and gave him a name above every name and at that name every knee shall bow and every tongue confess that He is Lord. 
@@ -220,13 +237,13 @@ Philipians 2: 3 - 14
 ***
 
 ####
-TBA
+<h3>**TBA**</h3>
 
 ####
-TBA
+<h3>**TBA**</h3>
 
 ####
-TBA
+<h3>**TBA**</h3>
 
 ### Other Content
 
