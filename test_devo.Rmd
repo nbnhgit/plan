@@ -1,5 +1,5 @@
 ---
-title: "Humble Not Silent"
+title: 
 output: 
   html_document:
     toc: true
@@ -11,12 +11,13 @@ output:
 /* Whole document: */
 body  { 
   font-family: Arial Narrow;
-  font-size: 20pt;
+  font-size: 13pt;
 }
 /* Headers */
 h1,h2,h3,h4,h5,h6{
-  font-size: 30pt;
+  font-size: 20pt;
  }
+
  
  @media screen and (min-width: 100px) and (max-width:768px) { 
     .video iframe {height:200px}
@@ -25,20 +26,19 @@ h1,h2,h3,h4,h5,h6{
  /* TAB COLORS */
  
 .color-tabs>.nav-pills>li:nth-child(1){
-           background: #2CE9CC;
-           font-color: #000000;
+           background: #e6f5ff;
+           font-color: #99d6ff;
            }
 .color-tabs>.nav-pills>li:nth-child(2){
-        background:#2CE9CC;
+        background:#e6f5ff;
         }
 .color-tabs>.nav-pills>li:nth-child(3){
-        background:#2CE9CC;
-        font-color: #ffffff
-        }
+        background:#e6f5ff;
+        font-color: #000000
+         }
 .color-tabs>.nav-pills>li:nth-child(4){
-       background:#2CE9CC;
+       background:#e6f5ff;
        }
- 
  
 </style>
 
@@ -51,6 +51,8 @@ knitr::opts_chunk$set(
   echo = F
 )
 ```
+
+# Humble Not Silent
 
 In this devotional you can expect to get an idea of what a real devotional will look like on our site. 
 
@@ -66,38 +68,179 @@ In this devotional you can expect to get an idea of what a real devotional will 
 
 ### Day 1: Equipped {.tabset .tabset-pills .tabset-fade .color-tabs}
 
+***
+
 #### Scripture
 
+Joshua 1: 1- 9
+
 1. After the death of Moses the servant of the Lord, the Lordsaid to Joshua son of Nun, Moses’ aide: 
-2. “Moses my servant is dead. Now then, you and all these people, get ready to cross the Jordan River into the land I am about to give to them—to the Israelites. 3. I will give you every place where you set your foot, as I promised Moses. 
+
+2. “Moses my servant is dead. Now then, you and all these people, get ready to cross the Jordan River into the land I am about to give to them—to the Israelites. 
+
+3. I will give you every place where you set your foot, as I promised Moses. 
+
 4. Your territory will extend from the desert to Lebanon, and from the great river, the Euphrates—all the Hittite country—to the Mediterranean Sea in the west. 
-5. No one will be able to stand against you all the days of your life. As I was with Moses, so I will be with you; I will never leave you nor forsake you. 
+
+5. No one will be able to stand against you all the days of your life. As I was with Moses, so I will be with you; I will never leave you nor forsake you.
+
 6. Be strong and courageous, because you will lead these people to inherit the land I swore to their ancestors to give them.
+
 7. “Be strong and very courageous. Be careful to obey all the law my servant Moses gave you; do not turn from it to the right or to the left, that you may be successful wherever you go. 
+
 8. Keep this Book of the Law always on your lips; meditate on it day and night, so that you may be careful to do everything written in it. Then you will be prosperous and successful. 
+
 9. Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lordyour God will be with you wherever you go.”
 
 #### Activation
-Joshua was equipped for who he was, and where he was going. You must know that you are equipped for where you are going. One must pay close attention to gain the necessary experiences and time for development before it is required of them. Take a moment and consider what area of life you believe you are being equipped for whether that is for parenting, being some form of leader, or simply putting the pieces of your life back together. All require some form of equipping. I want to let you know, that there is more in you, more for you, and more with you than against you. Believe again in with a humble heart that God intends for you to reach your goals.
+* Joshua was equipped for who he was, and where he was going. 
+
+* You must know that you are equipped for where you are going.
+
+* One must pay close attention to gain the necessary experiences and time for development before it is required of them. 
+
+* Take a moment and consider what area of life you believe you are being equipped for whether that is for parenting, being some form of leader, or simply putting the pieces of your life back together. 
+
+* All require some form of equipping. I want to let you know, that there is more in you, more for you, and more with you than against you. 
+
+* Believe again with a humble heart that God intends for you to reach your goals.
 
 #### Humility Unlocked
-* Obedience
-* Sacrifice
-* Humble
+* Having ability does not render the need for knowledge and mentorship irrelevant.
+
+* It takes humility to be able to remain. 
+
+* You can be elevated even though you weren’t humble. However, the point of humility is not to be elevated but to remain elevated.  
+
+### Day 2: Be Led{.tabset .tabset-pills .tabset-fade .color-tabs}
 
 ***
-### Day 2{.tabset .tabset-pills}
 
-### Point one
-* Detail one
-* Detail two
+#### Scripture
+Psalms 23
 
-### Point Two
-* Detail one
-* Detail two
+1. The Lord is my shepherd, I lack nothing.
+
+2. He makes me lie down in green pastures,
+he leads me beside quiet waters,
+
+3. he refreshes my soul.
+He guides me along the right paths
+for his name’s sake.
+
+4. Even though I walk
+through the darkest valley,
+I will fear no evil,
+for you are with me;
+your rod and your staff,
+they comfort me.
+
+5. You prepare a table before me
+in the presence of my enemies.
+You anoint my head with oil;
+my cup overflows.
+
+6. Surely your goodness and love will follow me
+all the days of my life,
+and I will dwell in the house of the Lord
+forever.
+
+#### Pride’s Dangers
+* Much of life isn’t a coincidence
+
+* Pride makes it difficult to flee from danger because we don’t see it coming 
+
+* Pride makes God look smaller 
+
+* Pride distorts your other senses (spiritually); you don’t want to taste and see that the Lord is Good
+
+* Pride will cause you to change your definition of evil and what should be abhorrent
+
+#### True Humility
+* True humility is found out of condemnation
+
+* True humility is in remaining teachable 
+
+* True humility is in understanding the necessity of budgeting time, and resources 
+
+* True humility is mastered in self control 
+
+### Day 3: Be Humble{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### Scripture
+
+Philipians 2: 3 - 14 
+
+3. For it is we who are the circumcision, we who serve God by his Spirit, who boast in Christ Jesus, and who put no confidence in the flesh— 
+
+4. though I myself have reasons for such confidence.
+	If someone else thinks they have reasons to put confidence in the flesh, I have more: 
+5 circumcised on the eighth day, of the people of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; in regard to the law, a Pharisee; 
+
+6. as for zeal, persecuting the church; as for righteousness based on the law, faultless.
+
+7. But whatever were gains to me I now consider loss for the sake of Christ. 
+
+8. What is more, I consider everything a loss because of the surpassing worth of knowing Christ Jesus my Lord, for whose sake I have lost all things. I consider them garbage, that I may gain Christ 
+
+9. and be found in him, not having a righteousness of my own that comes from the law, but that which is through faith in Christ—the righteousness that comes from God on the basis of faith. 
+
+10. I want to know Christ—yes, to know the power of his resurrection and participation in his sufferings, becoming like him in his death, 
+
+11. and so, somehow, attaining to the resurrection from the dead.
+
+12. Not that I have already obtained all this, or have already arrived at my goal, but I press on to take hold of that for which Christ Jesus took hold of me. 
+
+13. Brothers and sisters, I do not consider myself yet to have taken hold of it. But one thing I do: Forgetting what is behind and straining toward what is ahead, 
+
+14. I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus.
+
+#### Value of Humility
+* Humility takes obedience 
+
+* In our relationship with other we should have the mindset of Christ
+
+* Sometimes staying silent is worse than not
+
+* God has to work on your humility in order to work out his purpose in you
+
+* It is very important to obey your leaders 
+
+#### The Humility of the Cross
+* You are not righteous by your own efforts, but in believing in Jesus Christ, you take on His righteousness 
+
+* Because Jesus humbled himself, God exalted Him and gave him a name above every name and at that name every knee shall bow and every tongue confess that He is Lord. 
+
+* To work out your salvation with fear and trembling, means to strong consider your own relationship with the Lord without comparing it to others. We all will give our own account unto the Lord on that day.
+
+### Day 4: Humili - Tea{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+####
+TBA
+
+####
+TBA
+
+####
+TBA
+
+### Other Content
+
+***
+
+- Like Our Page On Facebook At NBNHChurch
+
+- Follow Us On Instagram At NBNHChurch
+
+- Subscribe To Our Youtube Page At NBNHChurch
 
 
-## Other Content
-- Link to FB
-- Link to IG
-- Link to [Youtube channel](https://www.youtube.com/channel/UCnJ8J2Py2yPHBZ42_EgM-Rw/videos)
+
+
+***
+
+Join Us In Service On Sundays At 11:30am Online On YouTube Or In Person At 3321 Avenue I, Brooklyn NY 11210
