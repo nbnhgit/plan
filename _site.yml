@@ -1,0 +1,13 @@
+name: "Devotional Content"
+output_dir: "."
+navbar:
+  title: "Home"
+  left: 
+    - text: "Devotionals"
+      href: test_devo.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:nbnhmedia@gmail.com
+    - icon: fa-github fa-lg
+      href: https://github.com/nbnhgit/plan
+output: html_document
