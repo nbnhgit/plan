@@ -5,6 +5,10 @@ navbar:
   left: 
     - text: "Devotionals"
       href: list-of-devotionals.html
+    - text: "list"
+      menu: 
+        - text: "Humble Not Silent"
+          href: humble_not_silent.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:nbnhmedia@gmail.com
