@@ -1,5 +1,12 @@
 ---
-output: html_document
+title: "List"
 ---
 
-On this page will have a list of devotionals
+
+
+<h3><center>On this page will have a list of devotionals _(more will be add shortly)_
+
+| Series | Number of days | Average time per day |
+|:------------------- |:-- |:----:|
+| [Humble Not Silent](humble_not_silent.html) | 4 | 15 min |
+

@@ -4,10 +4,8 @@ navbar:
   title: "Home"
   left: 
     - text: "Devotionals"
-      href: test_devo.html
+      href: list-of-devotionals.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:nbnhmedia@gmail.com
-    - icon: fa-github fa-lg
-      href: https://github.com/nbnhgit/plan
 output: html_document

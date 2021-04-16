@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>humble_not_silent.utf8</title>
+
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="list-of-devotionals.html">Devotionals</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:nbnhmedia@gmail.com">
+    <span class="fas fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<style type="text/css">
+  
+/* Whole document: */
+body  { 
+  font-family: Arial Narrow;
+  font-size: 13pt;
+}
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 20pt;
+ }
+
+ 
+ @media screen and (min-width: 100px) and (max-width:768px) { 
+    .video iframe {height:200px}
+}
+ 
+ /* TAB COLORS */
+ 
+.color-tabs>.nav-pills>li:nth-child(1){
+           background: #e6f5ff;
+           font-color: #99d6ff;
+           }
+.color-tabs>.nav-pills>li:nth-child(2){
+        background:#e6f5ff;
+        }
+.color-tabs>.nav-pills>li:nth-child(3){
+        background:#e6f5ff;
+        font-color: #000000
+         }
+.color-tabs>.nav-pills>li:nth-child(4){
+       background:#e6f5ff;
+       }
+ 
+
+</style>
+<div id="humble-not-silent" class="section level1">
+<h1>Humble Not Silent</h1>
+<p>In this devotional you can expect to get an idea of what a real devotional will look like on our site.</p>
+<div id="devotional-content" class="section level2 tabset tabset-pills">
+<h2 class="tabset tabset-pills">Devotional Content</h2>
+<div id="day-1-equipped" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 1: Equipped</h3>
+<hr />
+<div id="section" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p>Joshua 1: 1- 9 KJV</p>
+<ol style="list-style-type: decimal">
+<li><p>After the death of Moses the servant of the Lord, the Lordsaid to Joshua son of Nun, Moses’ aide:</p></li>
+<li><p>“Moses my servant is dead. Now then, you and all these people, get ready to cross the Jordan River into the land I am about to give to them—to the Israelites.</p></li>
+<li><p>I will give you every place where you set your foot, as I promised Moses.</p></li>
+<li><p>Your territory will extend from the desert to Lebanon, and from the great river, the Euphrates—all the Hittite country—to the Mediterranean Sea in the west.</p></li>
+<li><p>No one will be able to stand against you all the days of your life. As I was with Moses, so I will be with you; I will never leave you nor forsake you.</p></li>
+<li><p>Be strong and courageous, because you will lead these people to inherit the land I swore to their ancestors to give them.</p></li>
+<li><p>“Be strong and very courageous. Be careful to obey all the law my servant Moses gave you; do not turn from it to the right or to the left, that you may be successful wherever you go.</p></li>
+<li><p>Keep this Book of the Law always on your lips; meditate on it day and night, so that you may be careful to do everything written in it. Then you will be prosperous and successful.</p></li>
+<li><p>Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lordyour God will be with you wherever you go.”</p></li>
+</ol>
+</div>
+<div id="section-1" class="section level4">
+<h4></h4>
+<h3>
+<strong>Activation</strong>
+</h3>
+<ul>
+<li><p>Joshua was equipped for who he was, and where he was going.</p></li>
+<li><p>You must know that you are equipped for where you are going.</p></li>
+<li><p>One must pay close attention to gain the necessary experiences and time for development before it is required of them.</p></li>
+<li><p>Take a moment and consider what area of life you believe you are being equipped for whether that is for parenting, being some form of leader, or simply putting the pieces of your life back together.</p></li>
+<li><p>All require some form of equipping. I want to let you know, that there is more in you, more for you, and more with you than against you.</p></li>
+<li><p>Believe again with a humble heart that God intends for you to reach your goals.</p></li>
+</ul>
+</div>
+<div id="section-2" class="section level4">
+<h4></h4>
+<h3>
+<strong>Humility Unlocked</strong>
+</h3>
+<ul>
+<li><p>Having ability does not render the need for knowledge and mentorship irrelevant.</p></li>
+<li><p>It takes humility to be able to remain.</p></li>
+<li><p>You can be elevated even though you weren’t humble. However, the point of humility is not to be elevated but to remain elevated.</p></li>
+</ul>
+</div>
+</div>
+<div id="day-2-be-led" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 2: Be Led</h3>
+<hr />
+<div id="section-3" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p>Psalms 23 NIV</p>
+<ol style="list-style-type: decimal">
+<li><p>The Lord is my shepherd, I lack nothing.</p></li>
+<li><p>He makes me lie down in green pastures, he leads me beside quiet waters,</p></li>
+<li><p>he refreshes my soul. He guides me along the right paths for his name’s sake.</p></li>
+<li><p>Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.</p></li>
+<li><p>You prepare a table before me in the presence of my enemies. You anoint my head with oil; my cup overflows.</p></li>
+<li><p>Surely your goodness and love will follow me all the days of my life, and I will dwell in the house of the Lord forever.</p></li>
+</ol>
+</div>
+<div id="section-4" class="section level4">
+<h4></h4>
+<h3>
+<strong>Pride’s Dangers</strong>
+</h3>
+<ul>
+<li><p>Much of life isn’t a coincidence</p></li>
+<li><p>Pride makes it difficult to flee from danger because we don’t see it coming</p></li>
+<li><p>Pride makes God look smaller</p></li>
+<li><p>Pride distorts your other senses (spiritually); you don’t want to taste and see that the Lord is Good</p></li>
+<li><p>Pride will cause you to change your definition of evil and what should be abhorrent</p></li>
+</ul>
+</div>
+<div id="section-5" class="section level4">
+<h4></h4>
+<h3>
+<strong>True Humility</strong>
+</h3>
+<ul>
+<li><p>True humility is found out of condemnation</p></li>
+<li><p>True humility is in remaining teachable</p></li>
+<li><p>True humility is in understanding the necessity of budgeting time, and resources</p></li>
+<li><p>True humility is mastered in self control</p></li>
+</ul>
+</div>
+</div>
+<div id="day-3-be-humble" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 3: Be Humble</h3>
+<hr />
+<div id="section-6" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p>Philippians 2: 3 - 13 NIV</p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves,</p></li>
+<li><p>not looking to your own interests but each of you to the interests of the others.</p></li>
+<li><p>In your relationships with one another, have the same mindset as Christ Jesus:</p></li>
+<li><p>Who, being in very nature God, did not consider equality with God something to be used to his own advantage;</p></li>
+<li><p>rather, he made himself nothing by taking the very nature of a servant, being made in human likeness.</p></li>
+<li><p>And being found in appearance as a man, he humbled himself by becoming obedient to death— even death on a cross!</p></li>
+<li><p>Therefore God exalted him to the highest place and gave him the name that is above every name,</p></li>
+<li><p>that at the name of Jesus every knee should bow, in heaven and on earth and under the earth,</p></li>
+<li><p>and every tongue acknowledge that Jesus Christ is Lord, to the glory of God the Father.</p></li>
+<li><p>Therefore, my dear friends, as you have always obeyed—not only in my presence, but now much more in my absence—continue to work out your salvation with fear and trembling,</p></li>
+<li><p>for it is God who works in you to will and to act in order to fulfill his good purpose.</p></li>
+</ol>
+</div>
+<div id="section-7" class="section level4">
+<h4></h4>
+<h3>
+<strong>Value of Humility</strong>
+</h3>
+<ul>
+<li><p>Humility takes obedience</p></li>
+<li><p>In our relationship with other we should have the mindset of Christ</p></li>
+<li><p>Sometimes staying silent is worse than not</p></li>
+<li><p>God has to work on your humility in order to work out his purpose in you</p></li>
+<li><p>It is very important to obey your leaders</p></li>
+</ul>
+</div>
+<div id="section-8" class="section level4">
+<h4></h4>
+<h3>
+<strong>The Humility of the Cross</strong>
+</h3>
+<ul>
+<li><p>You are not righteous by your own efforts, but in believing in Jesus Christ, you take on His righteousness</p></li>
+<li><p>Because Jesus humbled himself, God exalted Him and gave him a name above every name and at that name every knee shall bow and every tongue confess that He is Lord.</p></li>
+<li><p>To work out your salvation with fear and trembling, means to strong consider your own relationship with the Lord without comparing it to others. We all will give our own account unto the Lord on that day.</p></li>
+</ul>
+</div>
+</div>
+<div id="day-4-humili---tea" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 4: Humili - Tea</h3>
+<hr />
+<div id="section-9" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p>Judges 21:25 NIV</p>
+<ol start="25" style="list-style-type: decimal">
+<li>In those days Israel had no king; everyone did as they saw fit.</li>
+</ol>
+</div>
+<div id="section-10" class="section level4">
+<h4></h4>
+<h3>
+<strong>Complex problems</strong>
+</h3>
+<p>The book of judges is filled with many heroic stories of how the Israelites were delivered in miracles ways. However, almost all the chapters end the same way because they always returned to idolatry and thus captivity.</p>
+<p>“In those days Israel had not king, and everyone did as they saw fit”.</p>
+<ul>
+<li>In our own rights we are some form of an ancient judge that God is trying to use to deliver a people from what has captured their attention away from God.</li>
+<li>In reality this can be complicated but God is even more committed to seeing you through your own captivity while he uses you to work out his plan of restoration</li>
+<li>Thus, one faces the test of humility, for progress to be had, for forgiveness to do what it does best and for pain to no longer be view as a course but a sign that you are still alive and have something to say</li>
+<li>Humility takes confidence, courage, and time.
+<ul>
+<li>Be confident in God who has called you</li>
+<li>Be strong in the Lord, and the power of his might</li>
+<li>Lastly trust the process and trust that God will see you through the most difficult moments of your life</li>
+<li>Jesus will get all in your business, just sip some humility-tea.</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-11" class="section level4">
+<h4></h4>
+<h3>
+<strong>Jesus The Judge</strong>
+</h3>
+<ul>
+<li><p>Jesus was a Judge for them then and for us now.</p></li>
+<li><p>Not the judge to condemn but the one that delivers.</p></li>
+<li><p>Hosanna was the word they used to reflect Jesus as the one who had come to deliver and to be king. However Jesus was more interested in being the King of their hearts. Let Jesus be the king of your heart, that is tree deliverance here on earth and in the life to come</p></li>
+</ul>
+</div>
+</div>
+<div id="other-content" class="section level3">
+<h3>Other Content</h3>
+<hr />
+<ul>
+<li><p>Like Our Page On <a href="https://www.facebook.com/nbnhchurchh">Facebook</a></p></li>
+<li><p>Follow Us On <a href="https://www.instagram.com/nbnhchurch/">Instagram</a></p></li>
+<li><p>Subscribe To Our <a href="https://www.youtube.com/channel/UCnJ8J2Py2yPHBZ42_EgM-Rw/videos">Youtube</a></p></li>
+</ul>
+<hr />
+<p>Join Us In Service On Sundays At 11:30am Online On YouTube Or In Person At <a href="https://goo.gl/maps/zEqTeSeUTucacoFx7">3321 Avenue I, Brooklyn NY 11210</a></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.005015946071!2d-73.94586834965841!3d40.62977135047868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244acc178ad61%3A0xa86518fbddee32ae!2s3321%20Avenue%20I%2C%20Brooklyn%2C%20NY%2011210!5e0!3m2!1sen!2sus!4v1618608302902!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy">
+</iframe>
+<hr />
+<center>
+<p>For more information Email us at <a href="mailto:nbnhmedia@gmail.com" class="email">nbnhmedia@gmail.com</a></p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
