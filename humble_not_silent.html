@@ -13,13 +13,22 @@
 
 <title>humble_not_silent.utf8</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -36,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -53,32 +57,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 
@@ -89,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -109,40 +83,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -170,7 +117,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -182,7 +129,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -193,10 +140,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -208,7 +168,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -300,7 +259,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -375,14 +334,14 @@ h1,h2,h3,h4,h5,h6{
 <h3>
 <strong>Activation</strong>
 </h3>
+<p>A lack of humility is one of the reasons why some systems are style broken. If you don’t humble down and get what you need where you are now, when it’s your turn to lead you will make a mess. Joshua was being equipped under the leadership of Moses but it took Joshua 40 years before he was positioned to lead.</p>
 <ul>
-<li><p>Joshua was equipped for who he was, and where he was going.</p></li>
-<li><p>You must know that you are equipped for where you are going.</p></li>
-<li><p>One must pay close attention to gain the necessary experiences and time for development before it is required of them.</p></li>
-<li><p>Take a moment and consider what area of life you believe you are being equipped for whether that is for parenting, being some form of leader, or simply putting the pieces of your life back together.</p></li>
-<li><p>All require some form of equipping. I want to let you know, that there is more in you, more for you, and more with you than against you.</p></li>
-<li><p>Believe again with a humble heart that God intends for you to reach your goals.</p></li>
+<li><p>You need to know that you are equipped for where you are going.</p></li>
+<li><p>Patience is required for us to be quipped.</p></li>
+<li><p>One should pay close attention to gain the necessary experiences and time for development before it is required of them.</p></li>
+<li><p>Take a moment and consider what area of life you believe you are being equipped for whether that is for parenting, being some form of leader, or simply putting the pieces of your life back together. All require some form of equipping.</p></li>
 </ul>
+<p>I want to let you know, that there is more in you, more for you, and more with you than against you. Believe again in with a humble heart that God intends for you to reach your goals.</p>
 </div>
 <div id="section-2" class="section level4">
 <h4></h4>
@@ -395,11 +354,19 @@ h1,h2,h3,h4,h5,h6{
 <li><p>You can be elevated even though you weren’t humble. However, the point of humility is not to be elevated but to remain elevated.</p></li>
 </ul>
 </div>
+<div id="section-3" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rJtALVl9zNE?start=4168" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
 </div>
 <div id="day-2-be-led" class="section level3 tabset tabset-pills tabset-fade color-tabs">
 <h3 class="tabset tabset-pills tabset-fade color-tabs">Day 2: Be Led</h3>
 <hr />
-<div id="section-3" class="section level4">
+<div id="section-4" class="section level4">
 <h4></h4>
 <h3>
 <strong>Scripture</strong>
@@ -414,7 +381,7 @@ h1,h2,h3,h4,h5,h6{
 <li><p>Surely your goodness and love will follow me all the days of my life, and I will dwell in the house of the Lord forever.</p></li>
 </ol>
 </div>
-<div id="section-4" class="section level4">
+<div id="section-5" class="section level4">
 <h4></h4>
 <h3>
 <strong>Pride’s Dangers</strong>
@@ -427,7 +394,7 @@ h1,h2,h3,h4,h5,h6{
 <li><p>Pride will cause you to change your definition of evil and what should be abhorrent</p></li>
 </ul>
 </div>
-<div id="section-5" class="section level4">
+<div id="section-6" class="section level4">
 <h4></h4>
 <h3>
 <strong>True Humility</strong>
@@ -439,11 +406,19 @@ h1,h2,h3,h4,h5,h6{
 <li><p>True humility is mastered in self control</p></li>
 </ul>
 </div>
+<div id="section-7" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rO8168_im6A?start=3606" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
 </div>
 <div id="day-3-be-humble" class="section level3 tabset tabset-pills tabset-fade color-tabs">
 <h3 class="tabset tabset-pills tabset-fade color-tabs">Day 3: Be Humble</h3>
 <hr />
-<div id="section-6" class="section level4">
+<div id="section-8" class="section level4">
 <h4></h4>
 <h3>
 <strong>Scripture</strong>
@@ -463,7 +438,7 @@ h1,h2,h3,h4,h5,h6{
 <li><p>for it is God who works in you to will and to act in order to fulfill his good purpose.</p></li>
 </ol>
 </div>
-<div id="section-7" class="section level4">
+<div id="section-9" class="section level4">
 <h4></h4>
 <h3>
 <strong>Value of Humility</strong>
@@ -476,7 +451,7 @@ h1,h2,h3,h4,h5,h6{
 <li><p>It is very important to obey your leaders</p></li>
 </ul>
 </div>
-<div id="section-8" class="section level4">
+<div id="section-10" class="section level4">
 <h4></h4>
 <h3>
 <strong>The Humility of the Cross</strong>
@@ -487,11 +462,19 @@ h1,h2,h3,h4,h5,h6{
 <li><p>To work out your salvation with fear and trembling, means to strong consider your own relationship with the Lord without comparing it to others. We all will give our own account unto the Lord on that day.</p></li>
 </ul>
 </div>
+<div id="section-11" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/diJFSQlygMQ?start=6217" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
 </div>
 <div id="day-4-humili---tea" class="section level3 tabset tabset-pills tabset-fade color-tabs">
 <h3 class="tabset tabset-pills tabset-fade color-tabs">Day 4: Humili - Tea</h3>
 <hr />
-<div id="section-9" class="section level4">
+<div id="section-12" class="section level4">
 <h4></h4>
 <h3>
 <strong>Scripture</strong>
@@ -501,7 +484,7 @@ h1,h2,h3,h4,h5,h6{
 <li>In those days Israel had no king; everyone did as they saw fit.</li>
 </ol>
 </div>
-<div id="section-10" class="section level4">
+<div id="section-13" class="section level4">
 <h4></h4>
 <h3>
 <strong>Complex problems</strong>
@@ -521,7 +504,7 @@ h1,h2,h3,h4,h5,h6{
 </ul></li>
 </ul>
 </div>
-<div id="section-11" class="section level4">
+<div id="section-14" class="section level4">
 <h4></h4>
 <h3>
 <strong>Jesus The Judge</strong>
@@ -531,6 +514,14 @@ h1,h2,h3,h4,h5,h6{
 <li><p>Not the judge to condemn but the one that delivers.</p></li>
 <li><p>Hosanna was the word they used to reflect Jesus as the one who had come to deliver and to be king. However Jesus was more interested in being the King of their hearts. Let Jesus be the king of your heart, that is tree deliverance here on earth and in the life to come</p></li>
 </ul>
+</div>
+<div id="section-15" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xPhngVB7w6M?start=5103" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 </div>
 </div>
 <div id="other-content" class="section level3">
@@ -579,7 +570,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
