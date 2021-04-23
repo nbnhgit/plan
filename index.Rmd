@@ -2,6 +2,6 @@
 output: html_document
 ---
 
-
-<h3><center>Welcome To Our Devotional Site 
+<h3><center>Welcome To Our Devotional Site
 <h1><center>You Are The Evidence
+
