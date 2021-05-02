@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Shout</title>
+
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="list-of-devotionals.html">Devotionals</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    list
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="humble_not_silent.html">Humble Not Silent</a>
+    </li>
+    <li>
+      <a href="Shout.html">Shout</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:nbnhmedia@gmail.com">
+    <span class="fas fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Shout</h1>
+
+</div>
+
+
+<style type="text/css">
+  
+/* Whole document: */
+body  { 
+  font-family: Arial Narrow;
+  font-size: 13pt;
+}
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 20pt;
+ }
+
+ 
+ @media screen and (min-width: 100px) and (max-width:768px) { 
+    .video iframe {height:200px}
+}
+ 
+ /* TAB COLORS */
+ 
+.color-tabs>.nav-pills>li:nth-child(1){
+           background: #e6f5ff;
+           font-color: #99d6ff;
+           }
+.color-tabs>.nav-pills>li:nth-child(2){
+        background:#e6f5ff;
+        }
+.color-tabs>.nav-pills>li:nth-child(3){
+        background:#e6f5ff;
+        font-color: #000000
+         }
+.color-tabs>.nav-pills>li:nth-child(4){
+       background:#e6f5ff;
+       }
+ 
+
+</style>
+<div id="shout" class="section level1">
+<h1>Shout</h1>
+<p>This series called shout is really a highlight for us at NBNH church because it gets at the core ideas of what walking with a praise in your heart can do for you. It also helps one identify areas where they have been quiet when they needed to speak up. It’s a vibe, check it out.</p>
+<div id="devotional-content" class="section level2 tabset tabset-pills">
+<h2 class="tabset tabset-pills">Devotional Content</h2>
+<div id="day-1-shout-that-truth" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 1: Shout That Truth</h3>
+<hr />
+<div id="section" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p>Matthew 28: 1 - 15 KJV</p>
+<ol style="list-style-type: decimal">
+<li><p>In the end of the sabbath, as it began to dawn toward the first day of the week, came Mary Magdalene and the other Mary to see the sepulchre.</p></li>
+<li><p>And, behold, there was a great earthquake: for the angel of the Lord descended from heaven, and came and rolled back the stone from the door, and sat upon it.</p></li>
+<li><p>His countenance was like lightning, and his raiment white as snow:</p></li>
+<li><p>And for fear of him the keepers did shake, and became as dead men.</p></li>
+<li><p>And the angel answered and said unto the women, Fear not ye: for I know that ye seek Jesus, which was crucified.</p></li>
+<li><p>He is not here: for he is risen, as he said. Come, see the place where the Lord lay.</p></li>
+<li><p>And go quickly, and tell his disciples that he is risen from the dead; and, behold, he goeth before you into Galilee; there shall ye see him: lo, I have told you.</p></li>
+<li><p>And they departed quickly from the sepulchre with fear and great joy; and did run to bring his disciples word.</p></li>
+<li><p>And as they went to tell his disciples, behold, Jesus met them, saying, All hail. And they came and held him by the feet, and worshipped him.</p></li>
+<li><p>Then said Jesus unto them, Be not afraid: go tell my brethren that they go into Galilee, and there shall they see me.</p></li>
+<li><p>Now when they were going, behold, some of the watch came into the city, and shewed unto the chief priests all the things that were done.</p></li>
+<li><p>And when they were assembled with the elders, and had taken counsel, they gave large money unto the soldiers,</p></li>
+<li><p>Saying, Say ye, His disciples came by night, and stole him away while we slept.</p></li>
+<li><p>And if this come to the governor’s ears, we will persuade him, and secure you.</p></li>
+<li><p>So they took the money, and did as they were taught: and this saying is commonly reported among the Jews until this day.</p></li>
+</ol>
+</div>
+<div id="section-1" class="section level4">
+<h4></h4>
+<h3>
+<strong>Attitude</strong>
+</h3>
+<ul>
+<li><p>Work out the shout (praise) on your job. You gotta walk with it. It’s an inward attitude of praise that will help keep us whole even though our circumstance seems unfair.</p></li>
+<li><p>Many christians believe God is with them but still are depressed. It’s an attitude of praise that helps change ones perspective</p></li>
+<li><p>You will be challenged but you do not have to be overcome by fear; do ask the questions you need to ask</p></li>
+</ul>
+</div>
+<div id="section-2" class="section level4">
+<h4></h4>
+<h3>
+<strong>Truth</strong>
+</h3>
+<ul>
+<li><p>No grave could hold Jesus (that’s just the truth)</p></li>
+<li><p>Jesus arose (He got up)</p></li>
+<li><p>Jesus died to redeem us; a truth that could not be overcome</p></li>
+<li><p>There’s a peace that only the Lord can give</p>
+<ul>
+<li>You’d get up and do what you needed to do if you had the peace of God</li>
+<li>There is peace for those that seek peace</li>
+<li>In that peace there is the, power to Love, the power to change, the power to listen,</li>
+<li>The power of this peace is rooted in that Jesus rose again</li>
+</ul></li>
+<li><p>He Arose</p>
+<ul>
+<li>So that we could know that he is the reconciliation between us and God</li>
+<li>He rose with love and not vengeance</li>
+<li>He rose so that we could believe in him forever, when things are going are way and not</li>
+<li>Even when our color is a barrier</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-3" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJm5s4thnDo?start=4461" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="day-2-shout-jesus-did-it" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 2: Shout, Jesus Did It</h3>
+<hr />
+<div id="section-4" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<ol style="list-style-type: decimal">
+<li>After this there was a feast of the Jews; and Jesus went up to Jerusalem.</li>
+<li>Now there is at Jerusalem by the sheep market a pool, which is called in the Hebrew tongue Bethesda, having five porches.</li>
+<li>In these lay a great multitude of impotent folk, of blind, halt, withered, waiting for the moving of the water.</li>
+<li>For an angel went down at a certain season into the pool, and troubled the water: whosoever then first after the troubling of the water stepped in was made whole of whatsoever disease he had.</li>
+<li>And a certain man was there, which had an infirmity thirty and eight years.</li>
+<li>When Jesus saw him lie, and knew that he had been now a long time in that case, he saith unto him, Wilt thou be made whole?</li>
+<li>The impotent man answered him, Sir, I have no man, when the water is troubled, to put me into the pool: but while I am coming, another steppeth down before me.</li>
+<li>Jesus saith unto him, Rise, take up thy bed, and walk.</li>
+<li>And immediately the man was made whole, and took up his bed, and walked: and on the same day was the sabbath. 10.The Jews therefore said unto him that was cured, It is the sabbath day: it is not lawful for thee to carry thy bed. 11. He answered them, He that made me whole, the same said unto me, Take up thy bed, and walk.</li>
+<li>Then asked they him, What man is that which said unto thee, Take up thy bed, and walk?</li>
+<li>And he that was healed wist not who it was: for Jesus had conveyed himself away, a multitude being in that place. 14. Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art made whole: sin no more, lest a worse thing come unto thee.</li>
+<li>The man departed, and told the Jews that it was Jesus, which had made him whole.</li>
+</ol>
+</div>
+<div id="section-5" class="section level4">
+<h4></h4>
+<h3>
+<strong>Mercy</strong>
+</h3>
+<ul>
+<li>Hang out where there are special benefits.</li>
+<li>The number 5 spiritually means mercy. We need mercy to be set free.</li>
+<li>The house of mercy is needed. Command mercy over your life/ command mercy to be now.</li>
+</ul>
+</div>
+<div id="section-6" class="section level4">
+<h4></h4>
+<h3>
+<strong>Safety</strong>
+</h3>
+<ul>
+<li>Physical sickness affect us spiritually. The situation should not determine your worth.</li>
+<li>Go where Jesus is. Your situations doesn’t consider if you are saved. Get away from the things that takes away your breath.</li>
+<li>Jesus is going to out-do your expectations. Jesus will go beyond the dreams you expected.</li>
+<li>You don’t need to have the faith always but the persons who’s gonna do it for you already got the faith.</li>
+</ul>
+</div>
+<div id="section-7" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rlM7eYwmriI?start=4226" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="day-3-get-the-shhhout" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 3: Get The Shhh…Out</h3>
+<hr />
+<div id="section-8" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p>Luke 24:25-33</p>
+<ol start="25" style="list-style-type: decimal">
+<li><p>He said to them, “How foolish you are, and how slow to believe all that the prophets have spoken!</p></li>
+<li><p>Did not the Messiah have to suffer these things and then enter his glory?”</p></li>
+<li><p>And beginning with Moses and all the Prophets, he explained to them what was said in all the Scriptures concerning himself.</p></li>
+<li><p>As they approached the village to which they were going, Jesus continued on as if he were going farther.</p></li>
+<li><p>But they urged him strongly, “Stay with us, for it is nearly evening; the day is almost over.” So he went in to stay with them.</p></li>
+<li><p>When he was at the table with them, he took bread, gave thanks, broke it and began to give it to them.</p></li>
+<li><p>Then their eyes were opened and they recognized him, and he disappeared from their sight.</p></li>
+<li><p>They asked each other, “Were not our hearts burning within us while he talked with us on the road and opened the Scriptures to us?”</p></li>
+<li><p>They got up and returned at once to Jerusalem. There they found the Eleven and those with them, assembled together</p></li>
+</ol>
+</div>
+<div id="section-9" class="section level4">
+<h4></h4>
+<h3>
+<strong>Quiet</strong>
+</h3>
+<ul>
+<li><p>Often times the source of our quietness has to do with what we were prepared for or neglected. It’s important to address this as you develop that you don’t embody the mistakes you have made or the hurt that others have caused you so that you can heal well.</p></li>
+<li><p>What keeps us quiet is muting our real voices and God desires to hear the real us.</p></li>
+<li><p>Get the Shhhhh… out really highlights how one should reunite with ones true voice, the God given voice, not the one that hides behind hurt, and fear. For God has not given us a spirit of fear but of Love and a sound mind. [2 Timothy 1:7]</p></li>
+</ul>
+</div>
+<div id="section-10" class="section level4">
+<h4></h4>
+<h3>
+<strong>Believe Quick</strong>
+</h3>
+<ul>
+<li><p>Our definition of self and others is often a culmination of what we have been influenced by. However, this influence has to be God centric if we want to ensure that we are responsibly approaching life in a way that God desires.</p></li>
+<li><p>While mental health has a range of ways believers are bombarded with, there are times where we would be free from depression, anxiety, and the like if we would get out of sin. Yes, the traditional sin but also the sin of not pushing our potential. The bible says a little folding of the hands, a little slumber… brings on poverty (proverbs 24:3). Push!</p></li>
+<li><p>Be quick to believe what God says about you (in his word), and to you (via the holy spirit). The prophetess Deborah believed God quick that He went before them in battle. Peter believed Jesus quick that He was the Son of God. Mary was quick to believe that her calling to carry and ween Jesus was difficult with the current societal climate.</p></li>
+</ul>
+</div>
+<div id="section-11" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RDNN-g4Ho_s?start=4988" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="day-4-shout-imminentsomeone-must-hear" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 4: Shout Imminent:Someone Must Hear</h3>
+<hr />
+<div id="section-12" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p>Genesis 11:1-9 KJV</p>
+<ol style="list-style-type: decimal">
+<li><p>And the whole earth was of one language, and of one speech.</p></li>
+<li><p>And it came to pass, as they journeyed from the east, that they found a plain in the land of Shinar; and they dwelt there.</p></li>
+<li><p>And they said one to another, Go to, let us make brick, and burn them thoroughly. And they had brick for stone, and slime had they for morter.</p></li>
+<li><p>And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth.</p></li>
+<li><p>And the Lord came down to see the city and the tower, which the children of men builded.</p></li>
+<li><p>And the Lord said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do.</p></li>
+<li><p>Go to, let us go down, and there confound their language, that they may not understand one another’s speech.</p></li>
+<li><p>So the Lord scattered them abroad from thence upon the face of all the earth: and they left off to build the city.</p></li>
+<li><p>Therefore is the name of it called Babel; because the Lord did there confound the language of all the earth: and from thence did the Lord scatter them abroad upon the face of all the earth.</p></li>
+</ol>
+</div>
+<div id="section-13" class="section level4">
+<h4></h4>
+<h3>
+<strong>Someone Must Hear</strong>
+</h3>
+<p>Shout Imminent:</p>
+<ul>
+<li>Choosing to walk away is not the will of God.</li>
+<li>Having no identity lessen your value.</li>
+<li>Refusing to move means refusing to grow.</li>
+</ul>
+</div>
+<div id="section-14" class="section level4">
+<h4></h4>
+<h3>
+<strong>Re-think Bondage</strong>
+</h3>
+<p>The Bondage we choose</p>
+<ul>
+<li>In rebellion sometimes you have no clue of what you are doing.</li>
+<li>Hear’s and not doers of the word</li>
+<li>God is not mocked we will reap what ever we sow</li>
+</ul>
+<p>The Bondage we inherit</p>
+<ul>
+<li>We do not choose to be in bondage</li>
+<li>Sometimes the choices our families made were out of fear</li>
+<li>Don’t let trying to keep your children safe disrupt their destiny</li>
+</ul>
+<p>The Bondage we fall into</p>
+<ul>
+<li>Steals your sleep and messes with your mental health</li>
+<li>Do you choose to be resilient or stay the course</li>
+<li>In times of discouragement keep your eyes on Jesus
+<ul>
+<li>We need to shout, someone must hear</li>
+<li>Shout the scriptures, what you have learned</li>
+</ul></li>
+<li>A rebuke can not be silent</li>
+<li>We must shout make an alarm; to proclaim.</li>
+<li>This get lost in whispers, but a shout triggers a response.</li>
+</ul>
+</div>
+<div id="section-15" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZwBsxBq9qnY?start=4635" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

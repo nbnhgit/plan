@@ -49,3 +49,245 @@ knitr::opts_chunk$set(
   echo = F
 )
 ```
+
+# Shout
+This series called shout is really a highlight for us at NBNH church because it gets at the core ideas of what walking with a praise in your heart can do for you. It also helps one identify areas where they have been quiet when they needed to speak up. It's a vibe, check it out.
+ 
+ 
+ 
+```{r}
+
+```
+ 
+## Devotional Content {.tabset .tabset-pills}
+ 
+### Day 1: Shout That Truth {.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+ 
+#### 
+<h3>**Scripture**</h3>
+Matthew 28: 1 - 15 KJV
+
+1. In the end of the sabbath, as it began to dawn toward the first day of the week, came Mary Magdalene and the other Mary to see the sepulchre.
+
+2. And, behold, there was a great earthquake: for the angel of the Lord descended from heaven, and came and rolled back the stone from the door, and sat upon it.
+
+3. His countenance was like lightning, and his raiment white as snow:
+
+4. And for fear of him the keepers did shake, and became as dead men.
+
+5. And the angel answered and said unto the women, Fear not ye: for I know that ye seek Jesus, which was crucified.
+
+6. He is not here: for he is risen, as he said. Come, see the place where the Lord lay.
+
+7. And go quickly, and tell his disciples that he is risen from the dead; and, behold, he goeth before you into Galilee; there shall ye see him: lo, I have told you.
+
+8. And they departed quickly from the sepulchre with fear and great joy; and did run to bring his disciples word.
+
+9. And as they went to tell his disciples, behold, Jesus met them, saying, All hail. And they came and held him by the feet, and worshipped him.
+
+10. Then said Jesus unto them, Be not afraid: go tell my brethren that they go into Galilee, and there shall they see me.
+
+11. Now when they were going, behold, some of the watch came into the city, and shewed unto the chief priests all the things that were done.
+
+12. And when they were assembled with the elders, and had taken counsel, they gave large money unto the soldiers,
+
+13. Saying, Say ye, His disciples came by night, and stole him away while we slept.
+
+14. And if this come to the governor's ears, we will persuade him, and secure you.
+
+15. So they took the money, and did as they were taught: and this saying is commonly reported among the Jews until this day.
+
+
+#### 
+<h3>**Attitude**</h3>
+
+* Work out the shout (praise) on your job. You gotta walk with it. It’s an inward attitude of praise that will help keep us whole even though our circumstance seems unfair. 
+
+* Many christians believe God is with them but still are depressed. It’s an attitude of praise that helps change ones perspective 
+
+* You will be challenged but you do not have to be overcome by fear; do ask the questions you need to ask
+
+#### 
+<h3>**Truth**</h3>
+
+* No grave could hold Jesus (that’s just the truth)
+
+* Jesus arose (He got up) 
+
+* Jesus died to redeem us; a truth that could not be overcome
+
+* There’s a peace that only the Lord can give
+   * You’d get up and do what you needed to do if you had the peace of God
+   * There is peace for those that seek peace
+   * In that peace there is the, power to Love, the power to change, the power to listen,
+   * The power of this peace is rooted in that Jesus rose again
+   
+* He Arose
+  * So that we could know that he is the reconciliation between us and God
+  * He rose with love and not vengeance
+  * He rose so that we could believe in him forever, when things are going are way and not
+  * Even when our color is a barrier  
+
+
+#### 
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJm5s4thnDo?start=4461" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+### Day 2: Shout, Jesus Did It {.tabset .tabset-pills .tabset-fade .color-tabs} 
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+1. After this there was a feast of the Jews; and Jesus went up to Jerusalem. 
+2. Now there is at Jerusalem by the sheep market a pool, which is called in the Hebrew tongue Bethesda, having five porches. 
+3. In these lay a great multitude of impotent folk, of blind, halt, withered, waiting for the moving of the water. 
+4. For an angel went down at a certain season into the pool, and troubled the water: whosoever then first after the troubling of the water stepped in was made whole of whatsoever disease he had. 
+5. And a certain man was there, which had an infirmity thirty and eight years. 
+6. When Jesus saw him lie, and knew that he had been now a long time in that case, he saith unto him, Wilt thou be made whole? 
+7. The impotent man answered him, Sir, I have no man, when the water is troubled, to put me into the pool: but while I am coming, another steppeth down before me. 
+8. Jesus saith unto him, Rise, take up thy bed, and walk. 
+9. And immediately the man was made whole, and took up his bed, and walked: and on the same day was the sabbath.
+10.The Jews therefore said unto him that was cured, It is the sabbath day: it is not lawful for thee to carry thy bed. 11. He answered them, He that made me whole, the same said unto me, Take up thy bed, and walk. 
+12. Then asked they him, What man is that which said unto thee, Take up thy bed, and walk? 
+13. And he that was healed wist not who it was: for Jesus had conveyed himself away, a multitude being in that place. 14. Afterward Jesus findeth him in the temple, and said unto him, Behold, thou art made whole: sin no more, lest a worse thing come unto thee. 
+15. The man departed, and told the Jews that it was Jesus, which had made him whole. 
+
+#### 
+<h3>**Mercy**</h3>
+* Hang out where there are special benefits.
+* The number 5 spiritually means mercy. We need mercy to be set free.
+* The house of mercy is needed. Command mercy over your life/ command mercy to be now.
+
+####
+<h3>**Safety**</h3>
+* Physical sickness affect us spiritually. The situation should not determine your worth.
+* Go where Jesus is. Your situations doesn’t consider if you are saved. Get away from the things that takes away your breath.
+* Jesus is going to out-do your expectations. Jesus will go beyond the dreams you expected.
+* You don’t need to have the faith always but the persons who’s gonna do it for you already got the faith.
+
+#### 
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rlM7eYwmriI?start=4226" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Day 3: Get The Shhh...Out {.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+Luke 24:25-33
+
+25. He said to them, “How foolish you are, and how slow to believe all that the prophets have spoken! 
+
+26. Did not the Messiah have to suffer these things and then enter his glory?” 
+
+27. And beginning with Moses and all the Prophets, he explained to them what was said in all the Scriptures concerning himself.
+
+28. As they approached the village to which they were going, Jesus continued on as if he were going farther. 
+
+29. But they urged him strongly, “Stay with us, for it is nearly evening; the day is almost over.” So he went in to stay with them.
+
+30. When he was at the table with them, he took bread, gave thanks, broke it and began to give it to them.
+
+31. Then their eyes were opened and they recognized him, and he disappeared from their sight. 
+
+32. They asked each other, “Were not our hearts burning within us while he talked with us on the road and opened the Scriptures to us?”
+
+33. They got up and returned at once to Jerusalem. There they found the Eleven and those with them, assembled together
+
+
+#### 
+<h3>**Quiet**</h3>
+
+* Often times the source of our quietness has to do with what we were prepared for or neglected. It's important to address this as you develop that you don't embody the mistakes you have made or the hurt that others have caused you so that you can heal well. 
+
+* What keeps us quiet is muting our real voices and God desires to hear the real us.
+
+* Get the Shhhhh... out really highlights how one should reunite with ones true voice, the God given voice, not the one that hides behind hurt, and fear.  For God has not given us a spirit of fear but of Love and a sound mind. [2 Timothy 1:7]
+
+#### 
+<h3>**Believe Quick**</h3>
+
+* Our definition of self and others is often a culmination of what we have been influenced by.  However, this influence has to be God centric if we want to ensure that we are responsibly approaching life in a way that God desires.
+
+* While mental health has a range of ways believers are bombarded with, there are times where we would be free from depression, anxiety, and the like if we would get out of sin. Yes, the traditional sin but also the sin of not pushing our potential. The bible says a little folding of the hands, a little slumber... brings on poverty (proverbs 24:3). Push!
+
+* Be quick to believe what God says about you (in his word), and to you (via the holy spirit).  The prophetess Deborah believed God quick that He went before them in battle. Peter believed Jesus quick that He was the Son of God. Mary was quick to believe that her calling to carry and ween Jesus was difficult with the current societal climate. 
+
+
+#### 
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RDNN-g4Ho_s?start=4988" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ 
+### Day 4: Shout Imminent:Someone Must Hear {.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+Genesis 11:1-9 KJV
+
+1. And the whole earth was of one language, and of one speech.
+
+2. And it came to pass, as they journeyed from the east, that they found a plain in the land of Shinar; and they dwelt there.
+
+3. And they said one to another, Go to, let us make brick, and burn them thoroughly. And they had brick for stone, and slime had they for morter.
+
+4. And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth.
+
+5. And the Lord came down to see the city and the tower, which the children of men builded.
+
+6. And the Lord said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do.
+
+7. Go to, let us go down, and there confound their language, that they may not understand one another's speech.
+
+8. So the Lord scattered them abroad from thence upon the face of all the earth: and they left off to build the city.
+
+9. Therefore is the name of it called Babel; because the Lord did there confound the language of all the earth: and from thence did the Lord scatter them abroad upon the face of all the earth.
+
+#### 
+<h3>**Someone Must Hear**</h3>
+Shout Imminent: 
+
+* Choosing to walk away is not the will of God. 
+* Having no identity lessen your value.
+* Refusing to move means refusing to grow.
+
+#### 
+<h3>**Re-think Bondage**</h3>
+
+The Bondage we choose
+
+* In rebellion sometimes you have no clue of what you are doing. 
+* Hear’s and not doers of the word
+* God is not mocked we will reap what ever we sow
+
+The Bondage we inherit
+
+* We do not choose to be in bondage
+* Sometimes the choices our families made were out of fear
+* Don’t let trying to keep your children safe disrupt their destiny 
+
+The Bondage we fall into
+
+* Steals your sleep and messes with your mental health 
+* Do you choose to be resilient or stay the course 
+* In times of discouragement keep your eyes on Jesus
+    * We need to shout, someone must hear
+    * Shout the scriptures, what you have learned
+* A rebuke can not be silent
+* We must shout make an alarm; to proclaim. 
+* This get lost in whispers, but a shout triggers a response. 
+
+#### 
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZwBsxBq9qnY?start=4635" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
