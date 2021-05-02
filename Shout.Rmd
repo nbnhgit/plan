@@ -1,0 +1,51 @@
+---
+title: "Shout"
+output: html_document
+---
+
+<style type="text/css">
+  
+/* Whole document: */
+body  { 
+  font-family: Arial Narrow;
+  font-size: 13pt;
+}
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 20pt;
+ }
+
+ 
+ @media screen and (min-width: 100px) and (max-width:768px) { 
+    .video iframe {height:200px}
+}
+ 
+ /* TAB COLORS */
+ 
+.color-tabs>.nav-pills>li:nth-child(1){
+           background: #e6f5ff;
+           font-color: #99d6ff;
+           }
+.color-tabs>.nav-pills>li:nth-child(2){
+        background:#e6f5ff;
+        }
+.color-tabs>.nav-pills>li:nth-child(3){
+        background:#e6f5ff;
+        font-color: #000000
+         }
+.color-tabs>.nav-pills>li:nth-child(4){
+       background:#e6f5ff;
+       }
+ 
+
+</style>
+
+```{r global chunk, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.width = 3,
+  fig.asp = .3,
+  out.width = "90%",
+  echo = F
+)
+```

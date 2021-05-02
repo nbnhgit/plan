@@ -9,6 +9,8 @@ navbar:
       menu: 
         - text: "Humble Not Silent"
           href: humble_not_silent.html
+        - text: "Shout"
+          href: Shout.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:nbnhmedia@gmail.com
