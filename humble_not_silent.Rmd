@@ -1,5 +1,5 @@
 ---
-title: "Humble Not Silent"
+title: ""
 output: html_document
 ---
 
