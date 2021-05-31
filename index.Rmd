@@ -1,8 +1,9 @@
 ---
-title: "NBNH Church"
+title: ""
 output: html_document
 ---
 
+<h1><center>NBNH Church</h1>
 <h3><center>Welcome To Our Devotional Site
 <h1><center>You Are The Evidence
 
