@@ -50,7 +50,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Humble Not Silent
+# 
 
  Often times acts of humility is coupled with acts of silence however, this concept should be viewed in context of the situation. Here we explore our Sunday messages on this topic to equip you with context of how not to be silent but still humble.
 

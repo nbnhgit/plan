@@ -1,0 +1,249 @@
+---
+title: "Conquer"
+output: html_document
+---
+
+<style type="text/css">
+  
+/* Whole document: */
+body  { 
+  font-family: Arial Narrow;
+  font-size: 13pt;
+}
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 20pt;
+ }
+
+ 
+ @media screen and (min-width: 100px) and (max-width:768px) { 
+    .video iframe {height:200px}
+}
+ 
+ /* TAB COLORS */
+ 
+.color-tabs>.nav-pills>li:nth-child(1){
+           background: #e6f5ff;
+           font-color: #99d6ff;
+           }
+.color-tabs>.nav-pills>li:nth-child(2){
+        background:#e6f5ff;
+        }
+.color-tabs>.nav-pills>li:nth-child(3){
+        background:#e6f5ff;
+        font-color: #000000
+         }
+.color-tabs>.nav-pills>li:nth-child(4){
+       background:#e6f5ff;
+       }
+ 
+
+</style>
+
+```{r global chunk, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.width = 3,
+  fig.asp = .3,
+  out.width = "90%",
+  echo = F
+)
+```
+
+# 
+
+  
+
+```{r, out.width = "300px", ali}
+
+# knitr::include_graphics("/Users/stevenlawrence/Downloads/nbnhyouthparty.jpg")
+
+```
+
+
+## Devotional Content {.tabset .tabset-pills}
+
+
+### Day 1:You Can Do It{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+
+<h3>**Scripture**</h3>
+
+Numbers 13:1–3
+
+1. The Lord said to Moses, 
+
+2. “Send some men to explore the land of Canaan, which I am giving to the Israelites. From each ancestral tribe send one of its leaders.”
+
+3 So at the Lord’s command Moses sent them out from the Desert of Paran. All of them were leaders of the Israelites.
+
+Numbers 13:16–33
+
+16. These are the names of the men Moses sent to explore the land. (Moses gave Hoshea son of Nun the name Joshua.)
+
+17. When Moses sent them to explore Canaan, he said, “Go up through the Negev and on into the hill country. 
+
+18. See what the land is like and whether the people who live there are strong or weak, few or many. 
+
+19. What kind of land do they live in? Is it good or bad? What kind of towns do they live in? Are they unwalled or fortified? 
+
+20. How is the soil? Is it fertile or poor? Are there trees in it or not? Do your best to bring back some of the fruit of the land.” (It was the season for the first ripe grapes.)
+
+21. So they went up and explored the land from the Desert of Zin as far as Rehob, toward Lebo Hamath. 
+
+22. They went up through the Negev and came to Hebron, where Ahiman, Sheshai and Talmai, the descendants of Anak, lived. (Hebron had been built seven years before Zoan in Egypt.) 
+
+23. When they reached the Valley of Eshkol,[a] they cut off a branch bearing a single cluster of grapes. Two of them carried it on a pole between them, along with some pomegranates and figs. 
+
+24. That place was called the Valley of Eshkol because of the cluster of grapes the Israelites cut off there. 
+
+25. At the end of forty days they returned from exploring the land.
+
+Report on the Exploration
+
+26. They came back to Moses and Aaron and the whole Israelite community at Kadesh in the Desert of Paran. There they reported to them and to the whole assembly and showed them the fruit of the land. 
+
+27. They gave Moses this account: “We went into the land to which you sent us, and it does flow with milk and honey! Here is its fruit. 
+
+28. But the people who live there are powerful, and the cities are fortified and very large. We even saw descendants of Anak there. 
+
+29. The Amalekites live in the Negev; the Hittites, Jebusites and Amorites live in the hill country; and the Canaanites live near the sea and along the Jordan.”
+
+30. Then Caleb silenced the people before Moses and said, “We should go up and take possession of the land, for we can certainly do it.”
+
+31. But the men who had gone up with him said, “We can’t attack those people; they are stronger than we are.” 32 And they spread among the Israelites a bad report about the land they had explored. They said, “The land we explored devours those living in it. All the people we saw there are of great size. 33 We saw the Nephilim there (the descendants of Anak come from the Nephilim). We seemed like grasshoppers in our own eyes, and we looked the same to them.”
+
+
+#### 
+<h3>****</h3>
+
+
+
+#### 
+<h3>****</h3>
+
+ 
+
+#### 
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yCISwMwX2YY?start=4738" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Day 2: Posture To Conquer{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+
+
+
+#### 
+<h3>****</h3>
+
+
+
+#### 
+<h3>****</h3>
+
+ 
+
+####
+<h3>**Video**</h3>
+
+
+### Day 3: Called To Conquer{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+
+
+
+#### 
+<h3>****</h3>
+
+
+
+#### 
+<h3>****</h3>
+
+
+
+####
+<h3>**Video**</h3>
+
+
+
+### Day 4:It's In The Bag{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+####
+<h3>**Scripture**</h3>
+
+
+
+####
+<h3>****</h3>
+
+
+
+####
+<h3>****</h3>
+
+
+
+####
+<h3>**Video**</h3>
+
+
+### Day 5:Initiate A Move To Conquer{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+####
+<h3>**Scripture**</h3>
+
+
+
+####
+<h3>****</h3>
+
+
+
+####
+<h3>****</h3>
+
+
+
+####
+<h3>**Video**</h3>
+
+
+### Other Content
+
+***
+
+- Like Our Page On [Facebook](https://www.facebook.com/nbnhchurchh)
+
+- Follow Us On [Instagram](https://www.instagram.com/nbnhchurch/)
+
+- Subscribe To Our [Youtube](https://www.youtube.com/channel/UCnJ8J2Py2yPHBZ42_EgM-Rw/videos)
+
+
+
+***
+
+Join Us In Service On Sundays At 11:30am Online On YouTube Or In Person At [3321 Avenue I, Brooklyn NY 11210](https://goo.gl/maps/zEqTeSeUTucacoFx7)
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.005015946071!2d-73.94586834965841!3d40.62977135047868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244acc178ad61%3A0xa86518fbddee32ae!2s3321%20Avenue%20I%2C%20Brooklyn%2C%20NY%2011210!5e0!3m2!1sen!2sus!4v1618608302902!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+***
+
+<center>For more information Email us at nbnhmedia@gmail.com

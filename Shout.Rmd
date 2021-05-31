@@ -50,7 +50,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Shout
+# 
 This series called shout is really a highlight for us at NBNH church because it gets at the core ideas of what walking with a praise in your heart can do for you. It also helps one identify areas where they have been quiet when they needed to speak up. It's a vibe, check it out.
  
  
