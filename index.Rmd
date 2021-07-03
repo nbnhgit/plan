@@ -1,8 +1,121 @@
 ---
-title: "NBNH Church"
+title: ""
 output: html_document
 ---
 
-<h3><center>Welcome To Our Devotional Site
-<h1><center>You Are The Evidence
+```{=html}
+<style type="text/css">
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.showcase {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  /*padding: 100px;*/
+  display: flex;
+  justify-context: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  z-index:2;
+  
+}
+
+.showcase header {
+  position: absolute;
+  to: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px; 
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+ text-transform: uppercase;
+ cursor: pointer;
+}
+
+.toggle{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+
+.showcase video {
+  positions: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.overlay {
+  positions: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+}
+
+.text {
+  positoin: relative;
+  z-index: 10;
+}
+
+</style>
+```
+<section class="showcase">
+
+<header>
+
+<div>
+
+<h2 class="logo">
+
+
+nbnh church
+
+</h2>
+<ul>
+
+<h3 class="text">
+
+Welcome To Our Devotional Site
+
+</h3>
+
+<h3 class="text">
+
+You Are The Evidence
+
+</h3>
+
+</ul>
+
+</div>
+
+</header>
+
+<video src="webslidervid2.mp4" muted loop autoplay>
+
+</video>
+
+
+
+</section>
