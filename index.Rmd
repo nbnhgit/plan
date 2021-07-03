@@ -3,7 +3,6 @@ title: ""
 output: html_document
 ---
 
-<<<<<<< HEAD
 ```{=html}
 <style type="text/css">
 
