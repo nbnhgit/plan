@@ -10,4 +10,5 @@ title: "List"
 |:------------------- |:-- |:----:|
 | [Humble Not Silent](humble_not_silent.html) | 4 | 15 min |
 | [Shout](Shout.html) | 4 | 10 min |
+| [Conquer](Conquer.html) | 5 | 15 min |
 

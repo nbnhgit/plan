@@ -11,6 +11,8 @@ navbar:
           href: humble_not_silent.html
         - text: "Shout"
           href: Shout.html
+        - text: "Conquer"
+          href: Conquer.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:nbnhmedia@gmail.com

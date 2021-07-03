@@ -1,0 +1,492 @@
+---
+title: ""
+output: html_document
+---
+
+<style type="text/css">
+  
+/* Whole document: */
+body  { 
+  font-family: Arial Narrow;
+  font-size: 13pt;
+}
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 20pt;
+ }
+
+ 
+ @media screen and (min-width: 100px) and (max-width:768px) { 
+    .video iframe {height:200px}
+}
+ 
+ /* TAB COLORS */
+ 
+.color-tabs>.nav-pills>li:nth-child(1){
+           background: #e6f5ff;
+           font-color: #99d6ff;
+           }
+.color-tabs>.nav-pills>li:nth-child(2){
+        background:#e6f5ff;
+        }
+.color-tabs>.nav-pills>li:nth-child(3){
+        background:#e6f5ff;
+        font-color: #000000
+         }
+.color-tabs>.nav-pills>li:nth-child(4){
+       background:#e6f5ff;
+       }
+ 
+
+</style>
+
+```{r global chunk, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.width = 3,
+  fig.asp = .3,
+  out.width = "90%",
+  echo = F
+)
+```
+
+# 
+
+![](./images/Conquer.jpg)
+
+Conquer is a series that will stick with our church for a long time. Here we journey through stories in the bible that help us take a faith filled perspective on life and its circumstances. Theses individuals sometimes lost, however with God we ultimately win. Journey through this devotional with us, and let's conquer.
+
+```{r, out.width = "300px", ali}
+
+# knitr::include_graphics("/Users/stevenlawrence/Downloads/nbnhyouthparty.jpg")
+
+```
+
+
+## Devotional Content {.tabset .tabset-pills}
+
+
+### Day 1:You Can Do It{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+
+<h3>**Scripture**</h3>
+
+**Numbers 13:1–3 NIV**
+
+1. The Lord said to Moses, 
+
+2. “Send some men to explore the land of Canaan, which I am giving to the Israelites. From each ancestral tribe send one of its leaders.”
+
+3 So at the Lord’s command Moses sent them out from the Desert of Paran. All of them were leaders of the Israelites.
+
+**Numbers 13:16–33 NIV**
+
+16. These are the names of the men Moses sent to explore the land. (Moses gave Hoshea son of Nun the name Joshua.)
+
+17. When Moses sent them to explore Canaan, he said, “Go up through the Negev and on into the hill country. 
+
+18. See what the land is like and whether the people who live there are strong or weak, few or many. 
+
+19. What kind of land do they live in? Is it good or bad? What kind of towns do they live in? Are they unwalled or fortified? 
+
+20. How is the soil? Is it fertile or poor? Are there trees in it or not? Do your best to bring back some of the fruit of the land.” (It was the season for the first ripe grapes.)
+
+21. So they went up and explored the land from the Desert of Zin as far as Rehob, toward Lebo Hamath. 
+
+22. They went up through the Negev and came to Hebron, where Ahiman, Sheshai and Talmai, the descendants of Anak, lived. (Hebron had been built seven years before Zoan in Egypt.) 
+
+23. When they reached the Valley of Eshkol,[a] they cut off a branch bearing a single cluster of grapes. Two of them carried it on a pole between them, along with some pomegranates and figs. 
+
+24. That place was called the Valley of Eshkol because of the cluster of grapes the Israelites cut off there. 
+
+25. At the end of forty days they returned from exploring the land.
+
+**Report on the Exploration**
+
+26. They came back to Moses and Aaron and the whole Israelite community at Kadesh in the Desert of Paran. There they reported to them and to the whole assembly and showed them the fruit of the land. 
+
+27. They gave Moses this account: “We went into the land to which you sent us, and it does flow with milk and honey! Here is its fruit. 
+
+28. But the people who live there are powerful, and the cities are fortified and very large. We even saw descendants of Anak there. 
+
+29. The Amalekites live in the Negev; the Hittites, Jebusites and Amorites live in the hill country; and the Canaanites live near the sea and along the Jordan.”
+
+30. Then Caleb silenced the people before Moses and said, “We should go up and take possession of the land, for we can certainly do it.”
+
+31. But the men who had gone up with him said, “We can’t attack those people; they are stronger than we are.” 32 And they spread among the Israelites a bad report about the land they had explored. They said, “The land we explored devours those living in it. All the people we saw there are of great size. 33 We saw the Nephilim there (the descendants of Anak come from the Nephilim). We seemed like grasshoppers in our own eyes, and we looked the same to them.”
+
+
+#### 
+<h3>**Change**</h3>
+
+* In order to conquer you need to change some habits. 
+
+* The biggest blockage to this change is in our mindset. 
+
+* Tell yourself you can do it, and you can deal with it. Whatever “it” is you are not alone in it. 
+
+
+#### 
+<h3>**Don’t Doubt**</h3>
+
+* Sometimes we doubt God out of acting. Or doubt God so much that we don’t get in position. 
+
+* Did you know God is one breath away, and will hear you when you pray. 
+
+* Speak to the root of your mindset, whether that be some trauma you have faced or fear you learn along the way and say you can do it. 
+
+#### 
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yCISwMwX2YY?start=4738" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Day 2: Posture To Conquer{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+
+**Isaiah 55:1-13 NIV**
+
+1. "Come, all you who are thirsty, come to the waters; and you who have no money, come, buy and eat! Come, buy wine and milk without money and without cost. 
+
+2.  Why spend money on what is not bread, and your labor on what does not satisfy? Listen, listen to me, and eat what is good, and you will delight in the richest of fare. 
+
+3.  Give ear and come to me; listen, that you may live. I will make an everlasting covenant with you, my faithful love promised to David. 
+
+4.  See, I have made him a witness to the peoples, a ruler and commander of the peoples. 
+
+5.  Surely you will summon nations you know not, and nations you do not know will come running to you, because of the Lord your God, the Holy One of Israel, for he has endowed you with splendor."
+
+6  Seek the Lord while he may be found; call on him while he is near. 
+
+7.  Let the wicked forsake their ways and the unrighteous their thoughts. Let them turn to the Lord, and he will have mercy on them, and to our God, for he will freely pardon. 
+
+8.  "For my thoughts are not your thoughts, neither are your ways my ways," declares the Lord. 
+
+9.  "As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts. 
+
+10.  As the rain and the snow come down from heaven, and do not return to it without watering the earth and making it bud and flourish, so that it yields seed for the sower and bread for the eater, 
+
+11.  so is my word that goes out from my mouth: It will not return to me empty, but will accomplish what I desire and achieve the purpose for which I sent it. 
+
+12.  You will go out in joy and be led forth in peace; the mountains and hills will burst into song before you, and all the trees of the field will clap their hands. 
+
+13.  Instead of the thornbush will grow the juniper, and instead of briers the myrtle will grow. This will be for the Lord's renown, for an everlasting sign, that will endure forever."
+
+#### 
+<h3>**Posture**</h3>
+
+* If you have not conquered, you cannot be a conqueror.  We need to be realistic in our approach to this idea so that we do not fall into error and become in effective in our efforts.
+
+* Given the severity of where God is taking us, he said this is the season to get it because we don’t know what tomorrow brings.  It's the season to learn the lesson, to mature, to grow, to do better; the time is now.
+
+* We will not conquer unless we have the right posture, but with the right posture we can pull from the spiritual into the natural.
+
+#### 
+<h3>**Fullness**</h3>
+
+* God is always ready to renew his covenant with you. It's because of that why we have everything we need to conquer. It's His word, and without it, we will not conquer.
+
+* Stand fast in the liberty where with God has made us free, and slay self righteousness. 
+
+* The brokenness that we feel at times is a distraction from the goal. Drop off weariness for the Lord is your strength.    You will reap what was stolen, you won't be worn out, and you will no longer almost but will conquer. 
+ 
+
+####
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2wVA8_RH60?start=5149" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Day 3: Called To Conquer{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+
+**2 Peter 1:3-9 NIV**
+
+3. His divine power has given us everything we need for a godly life through our knowledge of him who called us by his own glory and goodness. 
+
+4. Through these he has given us his very great and precious promises, so that through them you may participate in the divine nature, having escaped the corruption in the world caused by evil desires.
+
+5. For this very reason, make every effort to add to your faith goodness; and to goodness, knowledge; 
+
+6. and to knowledge, self-control; and to self-control, perseverance; and to perseverance, godliness; 
+
+7. and to godliness, mutual affection; and to mutual affection, love. 
+
+8. For if you possess these qualities in increasing measure, they will keep you from being ineffective and unproductive in your knowledge of our Lord Jesus Christ. 
+
+9. But whoever does not have them is nearsighted and blind, forgetting that they have been cleansed from their past sins.
+
+#### 
+<h3>**Life In The Balance**</h3>
+
+* As the complexity of our life circumstances increase they seem more and more closer to making life or death decisions. This calls for us to learn how to do well with living "life in the balance." 
+
+* An important element to this balance is growing in grace. Peter made major contributions in this area of our faith highlighted in 2 Peter ch 1. Sometimes we get familiar with doing life in bondage that when we are free we go back to life as we knew it.  Let us then keep in mind that growth takes review, and review means to look back at where God has brought you in appreciate but looking for greater and bigger things ahead
+
+#### 
+<h3>**Conquered To Conquer**</h3>
+
+* There are some things we never want to let happen again. It's in that emotional place we need to make concrete decisions about how we'd like to progress from this point on. It could be a bad brake-up, a falling class grade, or even an argument that went too far.
+
+* However, no matter what you are going through, there is mercy, grace, a promise, the prophetic, and power to conquer.  This is not the end for you.
+
+
+####
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t-mTOSeZL-o?start=4709" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Day 4:It's In The Bag{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+####
+<h3>**Scripture**</h3>
+
+**1 Samuel 17:1-58 NIV**
+
+1. Now the Philistines gathered their forces for war and assembledc at Sokoh in Judah. They pitched camp at Ephes Dammim, between Sokohd and Azekah.e 
+
+2. Saul and the Israelites assembled and camped in the Valley of Elahf and drew up their battle line to meet the Philistines. 
+3. The Philistines occupied one hill and the Israelites another, with the valley between them.
+
+4. A champion named Goliath,g who was from Gath, came out of the Philistine camp. His height was six cubits and a span.a 
+
+5. He had a bronze helmet on his head and wore a coat of scale armor of bronze weighing five thousand shekelsb; 
+
+6. on his legs he wore bronze greaves, and a bronze javelinh was slung on his back. 
+
+7. His spear shaft was like a weaver’s rod,i and its iron point weighed six hundred shekels.c His shield bearerj went ahead of him.
+
+8. Goliath stood and shouted to the ranks of Israel, “Why do you come out and line up for battle? Am I not a Philistine, and are you not the servants of Saul? Choosek a man and have him come down to me. 
+
+9. If he is able to fight and kill me, we will become your subjects; but if I overcome him and kill him, you will become our subjects and serve us.” 
+
+10. Then the Philistine said, “This day I defyl the armies of Israel! Give me a man and let us fight each other.m” 
+
+11. On hearing the Philistine’s words, Saul and all the Israelites were dismayed and terrified.
+
+12. Now David was the son of an Ephrathiten named Jesse,o who was from Bethlehemp in Judah. Jesse had eightq sons, and in Saul’s time he was very old. 
+
+13. Jesse’s three oldest sons had followed Saul to the war: The firstborn was Eliab;r the second, Abinadab;s and the third, Shammah.t 
+
+14. David was the youngest. The three oldest followed Saul, 
+
+15. but David went back and forth from Saul to tendu his father’s sheepv at Bethlehem.
+
+16. For forty days the Philistine came forward every morning and evening and took his stand.
+
+17. Now Jesse said to his son David, “Take this ephahd w of roasted grainx and these ten loaves of bread for your brothers and hurry to their camp. 
+
+18. Take along these ten cheeses to the commander of their unit. See how your brothersy are and bring back some assurancee from them. 
+
+19. They are with Saul and all the men of Israel in the Valley of Elah, fighting against the Philistines.”
+
+20. Early in the morning David left the flock in the care of a shepherd, loaded up and set out, as Jesse had directed. He reached the camp as the army was going out to its battle positions, shouting the war cry. 
+
+21. Israel and the Philistines were drawing up their lines facing each other. 
+
+22. David left his things with the keeper of supplies,z ran to the battle lines and asked his brothers how they were. 
+
+23. As he was talking with them, Goliath, the Philistine champion from Gath, stepped out from his lines and shouted his usuala defiance, and David heard it. 
+
+24. Whenever the Israelites saw the man, they all fled from him in great fear.
+
+25. Now the Israelites had been saying, “Do you see how this man keeps coming out? He comes out to defy Israel. The king will give great wealth to the man who kills him. He will also give him his daughterb in marriage and will exempt his family from taxesc in Israel.”
+
+26. David asked the men standing near him, “What will be done for the man who kills this Philistine and removes this disgraced from Israel? Who is this uncircumcisede Philistine that he should defyf the armies of the livingg God?”
+
+27. They repeated to him what they had been saying and told him, “This is what will be done for the man who kills him.”
+
+28. When Eliab, David’s oldest brother, heard him speaking with the men, he burned with angerh at him and asked, “Why have you come down here? And with whom did you leave those few sheep in the wilderness? I know how conceited you are and how wicked your heart is; you came down only to watch the battle.”
+
+29. “Now what have I done?” said David. “Can’t I even speak?” 
+
+30. He then turned away to someone else and brought up the same matter, and the men answered him as before. 
+
+31. What David said was overheard and reported to Saul, and Saul sent for him.
+
+32. David said to Saul, “Let no one lose hearti on account of this Philistine; your servant will go and fight him.”
+
+33. Saul replied,j “You are not able to go out against this Philistine and fight him; you are only a young man, and he has been a warrior from his youth.”
+
+34. But David said to Saul, “Your servant has been keeping his father’s sheep. When a lionk or a bear came and carried off a sheep from the flock, 
+
+35. I went after it, struck it and rescued the sheep from its mouth. When it turned on me, I seizedl it by its hair, struck it and killed it. 
+
+36. Your servant has killed both the lionm and the bear; this uncircumcised Philistine will be like one of them, because he has defied the armies of the living God. 
+
+37. The Lord who rescuedn me from the paw of the liono and the paw of the bear will rescue me from the hand of this Philistine.” Saul said to David, “Go, and the Lord be withp you.”
+
+38. Then Saul dressed David in his ownq tunic. He put a coat of armor on him and a bronze helmet on his head. 
+
+39. David fastened on his sword over the tunic and tried walking around, because he was not used to them.
+“I cannot go in these,” he said to Saul, “because I am not used to them.” So he took them off. 
+
+40. Then he took his staff in his hand, chose five smooth stones from the stream, put them in the pouch of his shepherd’s bag and, with his sling in his hand, approached the Philistine.
+
+41. Meanwhile, the Philistine, with his shield bearerr in front of him, kept coming closer to David. 
+
+42. He looked David over and saw that he was little more than a boy, glowing with health and handsome,s and he despisedt him. 
+43. He said to David, “Am I a dog,u that you come at me with sticks?” And the Philistine cursed David by his gods. 
+
+44. “Come here,” he said, “and I’ll give your flesh to the birdsv and the wild animals!w”
+
+45. David said to the Philistine, “You come against me with sword and spear and javelin,x but I come against you in the namey of the Lord Almighty, the God of the armies of Israel, whom you have defied.z 
+
+46. This day the Lord will delivera you into my hands, and I’ll strike you down and cut off your head. This very day I will give the carcassesb of the Philistine army to the birds and the wild animals, and the whole worldc will know that there is a God in Israel.d 
+
+47. All those gathered here will know that it is not by sworde or spear that the Lord saves;f for the battleg is the Lord’s, and he will give all of you into our hands.”
+
+48. As the Philistine moved closer to attack him, David ran quickly toward the battle line to meet him. 
+
+49. Reaching into his bag and taking out a stone, he slung it and struck the Philistine on the forehead. The stone sank into his forehead, and he fell facedown on the ground.
+
+50. So David triumphed over the Philistine with a slingh and a stone; without a sword in his hand he struck down the Philistine and killed him.
+
+51. David ran and stood over him. He took hold of the Philistine’s sword and drew it from the sheath. After he killed him, he cuti off his head with the sword.j
+
+**When the Philistines saw that their hero was dead, they turned and ran.**
+
+52. Then the men of Israel and Judah surged forward with a shout and pursued the Philistines to the entrance of Gathf and to the gates of Ekron.k Their dead were strewn along the Shaaraiml road to Gath and Ekron. 
+
+53. When the Israelites returned from chasing the Philistines, they plundered their camp.
+
+54. David took the Philistine’s head and brought it to Jerusalem; he put the Philistine’s weapons in his own tent.
+
+55. As Saul watched Davidm going out to meet the Philistine, he said to Abner, commander of the army, “Abner,n whose son is that young man?” Abner replied, “As surely as you live, Your Majesty, I don’t know.”
+
+56. The king said, “Find out whose son this young man is.”
+
+57. As soon as David returned from killing the Philistine, Abner took him and brought him before Saul, with David still holding the Philistine’s head.
+
+58. “Whose son are you, young man?” Saul asked him. David said, “I am the son of your servant Jesseo of Bethlehem.”
+
+####
+<h3>**It's In You**</h3>
+
+* Often times to conquer it's not a matter of figuring out what you need, but more of what you already have.  In a consumer driven society we fall in the trap of always thinking we need more to do more, however, sometimes you can do more with what you already have.
+
+* To conquer we must let go of blaming others for our short comings, become obedient, and do things to please God.
+
+* David was anointed, he had salvation (he knew God), was humble, had a staff, 5 stones, and a sling. He refused the kings armor because he already had what he needed to defeat Goliath.  Take a look around, you may find out that you already have what you need to defeat your giants.
+
+####
+<h3>**Kingdom Way**</h3>
+
+* David had a way with words, or maybe he had a way to invite God into the circumstance he was facing. David activated the promise of God in His fight with Goliath.  "Today the philistines will know that there is a God in Israel".
+
+* God's favor is constant because it's a product of God's love, and is amplified by righteousness, and pureness of heart.
+
+* Ask God to surround you with people who have vision so that when you are low, you do not completely lose sight of your goals, and that God is for you not against you.
+
+
+####
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uuqeon2Nx6g?start=5491" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Day 5:Initiate A Move To Conquer{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+####
+<h3>**Scripture**</h3>
+
+**1 Samuel 14:1-17**
+
+1. One day Jonathan son of Saul said to his young armor-bearer, “Come, let’s go over to the Philistine outpost on the other side.” But he did not tell his father.
+
+2. Saul was staying on the outskirts of Gibeah under a pomegranate tree in Migron. With him were about six hundred men, 
+
+3. among whom was Ahijah, who was wearing an ephod. He was a son of Ichabod’s brother Ahitub son of Phinehas, the son of Eli, the Lord’s priest in Shiloh. No one was aware that Jonathan had left.
+
+4. On each side of the pass that Jonathan intended to cross to reach the Philistine outpost was a cliff; one was called Bozez and the other Seneh. 
+
+5. One cliff stood to the north toward Mikmash, the other to the south toward Geba.
+
+6. Jonathan said to his young armor-bearer, “Come, let’s go over to the outpost of those uncircumcised men. Perhaps the Lord will act in our behalf. Nothing can hinder the Lord from saving, whether by many or by few.”
+
+7. “Do all that you have in mind,” his armor-bearer said. “Go ahead; I am with you heart and soul.”
+
+8. Jonathan said, “Come on, then; we will cross over toward them and let them see us. 
+
+9. If they say to us, ‘Wait there until we come to you,’ we will stay where we are and not go up to them. 
+
+10. But if they say, ‘Come up to us,’ we will climb up, because that will be our sign that the Lord has given them into our hands.”
+
+11. So both of them showed themselves to the Philistine outpost. “Look!” said the Philistines. “The Hebrews are crawling out of the holes they were hiding in.” 
+
+12. The men of the outpost shouted to Jonathan and his armor-bearer, “Come up to us and we’ll teach you a lesson.”
+So Jonathan said to his armor-bearer, “Climb up after me; the Lord has given them into the hand of Israel.”
+
+13. Jonathan climbed up, using his hands and feet, with his armor-bearer right behind him. The Philistines fell before Jonathan, and his armor-bearer followed and killed behind him. 
+
+14. In that first attack Jonathan and his armor-bearer killed some twenty men in an area of about half an acre.
+
+Israel Routs the Philistines
+
+15. Then panic struck the whole army—those in the camp and field, and those in the outposts and raiding parties—and the ground shook. It was a panic sent by God.
+
+16. Saul’s lookouts at Gibeah in Benjamin saw the army melting away in all directions. 
+
+17. Then Saul said to the men who were with him, “Muster the forces and see who has left us.” When they did, it was Jonathan and his armor-bearer who were not there.
+
+####
+<h3>**Fight By Faith**</h3>
+
+* Faith is a reliable source to keep us going even when it seems as if we’re not winning.
+
+* Faith renews our thoughts 
+
+* Faith is what we use when self thinks it’s all over
+
+
+####
+<h3>**Get Out Of Hiding**</h3>
+
+* God wants to fight for you
+
+* God wants you to know who you are
+
+* Know that the most precious time to exercise your faith is when you’re feeling discouraged, out numbered, and knowing that you’re not prepared
+
+####
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j8QYdm4mbAw?start=6458" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Other Content
+
+***
+
+- Like Our Page On [Facebook](https://www.facebook.com/nbnhchurchh)
+
+- Follow Us On [Instagram](https://www.instagram.com/nbnhchurch/)
+
+- Subscribe To Our [Youtube](https://www.youtube.com/channel/UCnJ8J2Py2yPHBZ42_EgM-Rw/videos)
+
+
+
+***
+
+Join Us In Service On Sundays At 11:30am Online On YouTube Or In Person At [3321 Avenue I, Brooklyn NY 11210](https://goo.gl/maps/zEqTeSeUTucacoFx7)
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.005015946071!2d-73.94586834965841!3d40.62977135047868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244acc178ad61%3A0xa86518fbddee32ae!2s3321%20Avenue%20I%2C%20Brooklyn%2C%20NY%2011210!5e0!3m2!1sen!2sus!4v1618608302902!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+***
+
+<center>For more information Email us at nbnhmedia@gmail.com

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Conquer.utf8</title>
+
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="list-of-devotionals.html">Devotionals</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    list
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="humble_not_silent.html">Humble Not Silent</a>
+    </li>
+    <li>
+      <a href="Shout.html">Shout</a>
+    </li>
+    <li>
+      <a href="Conquer.html">Conquer</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:nbnhmedia@gmail.com">
+    <span class="fas fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<style type="text/css">
+  
+/* Whole document: */
+body  { 
+  font-family: Arial Narrow;
+  font-size: 13pt;
+}
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 20pt;
+ }
+
+ 
+ @media screen and (min-width: 100px) and (max-width:768px) { 
+    .video iframe {height:200px}
+}
+ 
+ /* TAB COLORS */
+ 
+.color-tabs>.nav-pills>li:nth-child(1){
+           background: #e6f5ff;
+           font-color: #99d6ff;
+           }
+.color-tabs>.nav-pills>li:nth-child(2){
+        background:#e6f5ff;
+        }
+.color-tabs>.nav-pills>li:nth-child(3){
+        background:#e6f5ff;
+        font-color: #000000
+         }
+.color-tabs>.nav-pills>li:nth-child(4){
+       background:#e6f5ff;
+       }
+ 
+
+</style>
+<div id="section" class="section level1">
+<h1></h1>
+<p><img src="images/Conquer.jpg" /></p>
+<p>Conquer is a series that will stick with our church for a long time. Here we journey through stories in the bible that help us take a faith filled perspective on life and its circumstances. Theses individuals sometimes lost, however with God we ultimately win. Journey through this devotional with us, and let’s conquer.</p>
+<div id="devotional-content" class="section level2 tabset tabset-pills">
+<h2 class="tabset tabset-pills">Devotional Content</h2>
+<div id="day-1you-can-do-it" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 1:You Can Do It</h3>
+<hr />
+<div id="section-1" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p><strong>Numbers 13:1–3 NIV</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>The Lord said to Moses,</p></li>
+<li><p>“Send some men to explore the land of Canaan, which I am giving to the Israelites. From each ancestral tribe send one of its leaders.”</p></li>
+</ol>
+<p>3 So at the Lord’s command Moses sent them out from the Desert of Paran. All of them were leaders of the Israelites.</p>
+<p><strong>Numbers 13:16–33 NIV</strong></p>
+<ol start="16" style="list-style-type: decimal">
+<li><p>These are the names of the men Moses sent to explore the land. (Moses gave Hoshea son of Nun the name Joshua.)</p></li>
+<li><p>When Moses sent them to explore Canaan, he said, “Go up through the Negev and on into the hill country.</p></li>
+<li><p>See what the land is like and whether the people who live there are strong or weak, few or many.</p></li>
+<li><p>What kind of land do they live in? Is it good or bad? What kind of towns do they live in? Are they unwalled or fortified?</p></li>
+<li><p>How is the soil? Is it fertile or poor? Are there trees in it or not? Do your best to bring back some of the fruit of the land.” (It was the season for the first ripe grapes.)</p></li>
+<li><p>So they went up and explored the land from the Desert of Zin as far as Rehob, toward Lebo Hamath.</p></li>
+<li><p>They went up through the Negev and came to Hebron, where Ahiman, Sheshai and Talmai, the descendants of Anak, lived. (Hebron had been built seven years before Zoan in Egypt.)</p></li>
+<li><p>When they reached the Valley of Eshkol,[a] they cut off a branch bearing a single cluster of grapes. Two of them carried it on a pole between them, along with some pomegranates and figs.</p></li>
+<li><p>That place was called the Valley of Eshkol because of the cluster of grapes the Israelites cut off there.</p></li>
+<li><p>At the end of forty days they returned from exploring the land.</p></li>
+</ol>
+<p><strong>Report on the Exploration</strong></p>
+<ol start="26" style="list-style-type: decimal">
+<li><p>They came back to Moses and Aaron and the whole Israelite community at Kadesh in the Desert of Paran. There they reported to them and to the whole assembly and showed them the fruit of the land.</p></li>
+<li><p>They gave Moses this account: “We went into the land to which you sent us, and it does flow with milk and honey! Here is its fruit.</p></li>
+<li><p>But the people who live there are powerful, and the cities are fortified and very large. We even saw descendants of Anak there.</p></li>
+<li><p>The Amalekites live in the Negev; the Hittites, Jebusites and Amorites live in the hill country; and the Canaanites live near the sea and along the Jordan.”</p></li>
+<li><p>Then Caleb silenced the people before Moses and said, “We should go up and take possession of the land, for we can certainly do it.”</p></li>
+<li><p>But the men who had gone up with him said, “We can’t attack those people; they are stronger than we are.” 32 And they spread among the Israelites a bad report about the land they had explored. They said, “The land we explored devours those living in it. All the people we saw there are of great size. 33 We saw the Nephilim there (the descendants of Anak come from the Nephilim). We seemed like grasshoppers in our own eyes, and we looked the same to them.”</p></li>
+</ol>
+</div>
+<div id="section-2" class="section level4">
+<h4></h4>
+<h3>
+<strong>Change</strong>
+</h3>
+<ul>
+<li><p>In order to conquer you need to change some habits.</p></li>
+<li><p>The biggest blockage to this change is in our mindset.</p></li>
+<li><p>Tell yourself you can do it, and you can deal with it. Whatever “it” is you are not alone in it.</p></li>
+</ul>
+</div>
+<div id="section-3" class="section level4">
+<h4></h4>
+<h3>
+<strong>Don’t Doubt</strong>
+</h3>
+<ul>
+<li><p>Sometimes we doubt God out of acting. Or doubt God so much that we don’t get in position.</p></li>
+<li><p>Did you know God is one breath away, and will hear you when you pray.</p></li>
+<li><p>Speak to the root of your mindset, whether that be some trauma you have faced or fear you learn along the way and say you can do it.</p></li>
+</ul>
+</div>
+<div id="section-4" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yCISwMwX2YY?start=4738" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="day-2-posture-to-conquer" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 2: Posture To Conquer</h3>
+<hr />
+<div id="section-5" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p><strong>Isaiah 55:1-13 NIV</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>"Come, all you who are thirsty, come to the waters; and you who have no money, come, buy and eat! Come, buy wine and milk without money and without cost.</p></li>
+<li><p>Why spend money on what is not bread, and your labor on what does not satisfy? Listen, listen to me, and eat what is good, and you will delight in the richest of fare.</p></li>
+<li><p>Give ear and come to me; listen, that you may live. I will make an everlasting covenant with you, my faithful love promised to David.</p></li>
+<li><p>See, I have made him a witness to the peoples, a ruler and commander of the peoples.</p></li>
+<li><p>Surely you will summon nations you know not, and nations you do not know will come running to you, because of the Lord your God, the Holy One of Israel, for he has endowed you with splendor."</p></li>
+</ol>
+<p>6 Seek the Lord while he may be found; call on him while he is near.</p>
+<ol start="7" style="list-style-type: decimal">
+<li><p>Let the wicked forsake their ways and the unrighteous their thoughts. Let them turn to the Lord, and he will have mercy on them, and to our God, for he will freely pardon.</p></li>
+<li><p>“For my thoughts are not your thoughts, neither are your ways my ways,” declares the Lord.</p></li>
+<li><p>"As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.</p></li>
+<li><p>As the rain and the snow come down from heaven, and do not return to it without watering the earth and making it bud and flourish, so that it yields seed for the sower and bread for the eater,</p></li>
+<li><p>so is my word that goes out from my mouth: It will not return to me empty, but will accomplish what I desire and achieve the purpose for which I sent it.</p></li>
+<li><p>You will go out in joy and be led forth in peace; the mountains and hills will burst into song before you, and all the trees of the field will clap their hands.</p></li>
+<li><p>Instead of the thornbush will grow the juniper, and instead of briers the myrtle will grow. This will be for the Lord’s renown, for an everlasting sign, that will endure forever."</p></li>
+</ol>
+</div>
+<div id="section-6" class="section level4">
+<h4></h4>
+<h3>
+<strong>Posture</strong>
+</h3>
+<ul>
+<li><p>If you have not conquered, you cannot be a conqueror. We need to be realistic in our approach to this idea so that we do not fall into error and become in effective in our efforts.</p></li>
+<li><p>Given the severity of where God is taking us, he said this is the season to get it because we don’t know what tomorrow brings. It’s the season to learn the lesson, to mature, to grow, to do better; the time is now.</p></li>
+<li><p>We will not conquer unless we have the right posture, but with the right posture we can pull from the spiritual into the natural.</p></li>
+</ul>
+</div>
+<div id="section-7" class="section level4">
+<h4></h4>
+<h3>
+<strong>Fullness</strong>
+</h3>
+<ul>
+<li><p>God is always ready to renew his covenant with you. It’s because of that why we have everything we need to conquer. It’s His word, and without it, we will not conquer.</p></li>
+<li><p>Stand fast in the liberty where with God has made us free, and slay self righteousness.</p></li>
+<li><p>The brokenness that we feel at times is a distraction from the goal. Drop off weariness for the Lord is your strength. You will reap what was stolen, you won’t be worn out, and you will no longer almost but will conquer.</p></li>
+</ul>
+</div>
+<div id="section-8" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2wVA8_RH60?start=5149" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="day-3-called-to-conquer" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 3: Called To Conquer</h3>
+<hr />
+<div id="section-9" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p><strong>2 Peter 1:3-9 NIV</strong></p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>His divine power has given us everything we need for a godly life through our knowledge of him who called us by his own glory and goodness.</p></li>
+<li><p>Through these he has given us his very great and precious promises, so that through them you may participate in the divine nature, having escaped the corruption in the world caused by evil desires.</p></li>
+<li><p>For this very reason, make every effort to add to your faith goodness; and to goodness, knowledge;</p></li>
+<li><p>and to knowledge, self-control; and to self-control, perseverance; and to perseverance, godliness;</p></li>
+<li><p>and to godliness, mutual affection; and to mutual affection, love.</p></li>
+<li><p>For if you possess these qualities in increasing measure, they will keep you from being ineffective and unproductive in your knowledge of our Lord Jesus Christ.</p></li>
+<li><p>But whoever does not have them is nearsighted and blind, forgetting that they have been cleansed from their past sins.</p></li>
+</ol>
+</div>
+<div id="section-10" class="section level4">
+<h4></h4>
+<h3>
+<strong>Life In The Balance</strong>
+</h3>
+<ul>
+<li><p>As the complexity of our life circumstances increase they seem more and more closer to making life or death decisions. This calls for us to learn how to do well with living “life in the balance.”</p></li>
+<li><p>An important element to this balance is growing in grace. Peter made major contributions in this area of our faith highlighted in 2 Peter ch 1. Sometimes we get familiar with doing life in bondage that when we are free we go back to life as we knew it. Let us then keep in mind that growth takes review, and review means to look back at where God has brought you in appreciate but looking for greater and bigger things ahead</p></li>
+</ul>
+</div>
+<div id="section-11" class="section level4">
+<h4></h4>
+<h3>
+<strong>Conquered To Conquer</strong>
+</h3>
+<ul>
+<li><p>There are some things we never want to let happen again. It’s in that emotional place we need to make concrete decisions about how we’d like to progress from this point on. It could be a bad brake-up, a falling class grade, or even an argument that went too far.</p></li>
+<li><p>However, no matter what you are going through, there is mercy, grace, a promise, the prophetic, and power to conquer. This is not the end for you.</p></li>
+</ul>
+</div>
+<div id="section-12" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t-mTOSeZL-o?start=4709" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="day-4its-in-the-bag" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 4:It’s In The Bag</h3>
+<hr />
+<div id="section-13" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p><strong>1 Samuel 17:1-58 NIV</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Now the Philistines gathered their forces for war and assembledc at Sokoh in Judah. They pitched camp at Ephes Dammim, between Sokohd and Azekah.e</p></li>
+<li><p>Saul and the Israelites assembled and camped in the Valley of Elahf and drew up their battle line to meet the Philistines.</p></li>
+<li><p>The Philistines occupied one hill and the Israelites another, with the valley between them.</p></li>
+<li><p>A champion named Goliath,g who was from Gath, came out of the Philistine camp. His height was six cubits and a span.a</p></li>
+<li><p>He had a bronze helmet on his head and wore a coat of scale armor of bronze weighing five thousand shekelsb;</p></li>
+<li><p>on his legs he wore bronze greaves, and a bronze javelinh was slung on his back.</p></li>
+<li><p>His spear shaft was like a weaver’s rod,i and its iron point weighed six hundred shekels.c His shield bearerj went ahead of him.</p></li>
+<li><p>Goliath stood and shouted to the ranks of Israel, “Why do you come out and line up for battle? Am I not a Philistine, and are you not the servants of Saul? Choosek a man and have him come down to me.</p></li>
+<li><p>If he is able to fight and kill me, we will become your subjects; but if I overcome him and kill him, you will become our subjects and serve us.”</p></li>
+<li><p>Then the Philistine said, “This day I defyl the armies of Israel! Give me a man and let us fight each other.m”</p></li>
+<li><p>On hearing the Philistine’s words, Saul and all the Israelites were dismayed and terrified.</p></li>
+<li><p>Now David was the son of an Ephrathiten named Jesse,o who was from Bethlehemp in Judah. Jesse had eightq sons, and in Saul’s time he was very old.</p></li>
+<li><p>Jesse’s three oldest sons had followed Saul to the war: The firstborn was Eliab;r the second, Abinadab;s and the third, Shammah.t</p></li>
+<li><p>David was the youngest. The three oldest followed Saul,</p></li>
+<li><p>but David went back and forth from Saul to tendu his father’s sheepv at Bethlehem.</p></li>
+<li><p>For forty days the Philistine came forward every morning and evening and took his stand.</p></li>
+<li><p>Now Jesse said to his son David, “Take this ephahd w of roasted grainx and these ten loaves of bread for your brothers and hurry to their camp.</p></li>
+<li><p>Take along these ten cheeses to the commander of their unit. See how your brothersy are and bring back some assurancee from them.</p></li>
+<li><p>They are with Saul and all the men of Israel in the Valley of Elah, fighting against the Philistines.”</p></li>
+<li><p>Early in the morning David left the flock in the care of a shepherd, loaded up and set out, as Jesse had directed. He reached the camp as the army was going out to its battle positions, shouting the war cry.</p></li>
+<li><p>Israel and the Philistines were drawing up their lines facing each other.</p></li>
+<li><p>David left his things with the keeper of supplies,z ran to the battle lines and asked his brothers how they were.</p></li>
+<li><p>As he was talking with them, Goliath, the Philistine champion from Gath, stepped out from his lines and shouted his usuala defiance, and David heard it.</p></li>
+<li><p>Whenever the Israelites saw the man, they all fled from him in great fear.</p></li>
+<li><p>Now the Israelites had been saying, “Do you see how this man keeps coming out? He comes out to defy Israel. The king will give great wealth to the man who kills him. He will also give him his daughterb in marriage and will exempt his family from taxesc in Israel.”</p></li>
+<li><p>David asked the men standing near him, “What will be done for the man who kills this Philistine and removes this disgraced from Israel? Who is this uncircumcisede Philistine that he should defyf the armies of the livingg God?”</p></li>
+<li><p>They repeated to him what they had been saying and told him, “This is what will be done for the man who kills him.”</p></li>
+<li><p>When Eliab, David’s oldest brother, heard him speaking with the men, he burned with angerh at him and asked, “Why have you come down here? And with whom did you leave those few sheep in the wilderness? I know how conceited you are and how wicked your heart is; you came down only to watch the battle.”</p></li>
+<li><p>“Now what have I done?” said David. “Can’t I even speak?”</p></li>
+<li><p>He then turned away to someone else and brought up the same matter, and the men answered him as before.</p></li>
+<li><p>What David said was overheard and reported to Saul, and Saul sent for him.</p></li>
+<li><p>David said to Saul, “Let no one lose hearti on account of this Philistine; your servant will go and fight him.”</p></li>
+<li><p>Saul replied,j “You are not able to go out against this Philistine and fight him; you are only a young man, and he has been a warrior from his youth.”</p></li>
+<li><p>But David said to Saul, “Your servant has been keeping his father’s sheep. When a lionk or a bear came and carried off a sheep from the flock,</p></li>
+<li><p>I went after it, struck it and rescued the sheep from its mouth. When it turned on me, I seizedl it by its hair, struck it and killed it.</p></li>
+<li><p>Your servant has killed both the lionm and the bear; this uncircumcised Philistine will be like one of them, because he has defied the armies of the living God.</p></li>
+<li><p>The Lord who rescuedn me from the paw of the liono and the paw of the bear will rescue me from the hand of this Philistine.” Saul said to David, “Go, and the Lord be withp you.”</p></li>
+<li><p>Then Saul dressed David in his ownq tunic. He put a coat of armor on him and a bronze helmet on his head.</p></li>
+<li><p>David fastened on his sword over the tunic and tried walking around, because he was not used to them. “I cannot go in these,” he said to Saul, “because I am not used to them.” So he took them off.</p></li>
+<li><p>Then he took his staff in his hand, chose five smooth stones from the stream, put them in the pouch of his shepherd’s bag and, with his sling in his hand, approached the Philistine.</p></li>
+<li><p>Meanwhile, the Philistine, with his shield bearerr in front of him, kept coming closer to David.</p></li>
+<li><p>He looked David over and saw that he was little more than a boy, glowing with health and handsome,s and he despisedt him.</p></li>
+<li><p>He said to David, “Am I a dog,u that you come at me with sticks?” And the Philistine cursed David by his gods.</p></li>
+<li><p>“Come here,” he said, “and I’ll give your flesh to the birdsv and the wild animals!w”</p></li>
+<li><p>David said to the Philistine, “You come against me with sword and spear and javelin,x but I come against you in the namey of the Lord Almighty, the God of the armies of Israel, whom you have defied.z</p></li>
+<li><p>This day the Lord will delivera you into my hands, and I’ll strike you down and cut off your head. This very day I will give the carcassesb of the Philistine army to the birds and the wild animals, and the whole worldc will know that there is a God in Israel.d</p></li>
+<li><p>All those gathered here will know that it is not by sworde or spear that the Lord saves;f for the battleg is the Lord’s, and he will give all of you into our hands.”</p></li>
+<li><p>As the Philistine moved closer to attack him, David ran quickly toward the battle line to meet him.</p></li>
+<li><p>Reaching into his bag and taking out a stone, he slung it and struck the Philistine on the forehead. The stone sank into his forehead, and he fell facedown on the ground.</p></li>
+<li><p>So David triumphed over the Philistine with a slingh and a stone; without a sword in his hand he struck down the Philistine and killed him.</p></li>
+<li><p>David ran and stood over him. He took hold of the Philistine’s sword and drew it from the sheath. After he killed him, he cuti off his head with the sword.j</p></li>
+</ol>
+<p><strong>When the Philistines saw that their hero was dead, they turned and ran.</strong></p>
+<ol start="52" style="list-style-type: decimal">
+<li><p>Then the men of Israel and Judah surged forward with a shout and pursued the Philistines to the entrance of Gathf and to the gates of Ekron.k Their dead were strewn along the Shaaraiml road to Gath and Ekron.</p></li>
+<li><p>When the Israelites returned from chasing the Philistines, they plundered their camp.</p></li>
+<li><p>David took the Philistine’s head and brought it to Jerusalem; he put the Philistine’s weapons in his own tent.</p></li>
+<li><p>As Saul watched Davidm going out to meet the Philistine, he said to Abner, commander of the army, “Abner,n whose son is that young man?” Abner replied, “As surely as you live, Your Majesty, I don’t know.”</p></li>
+<li><p>The king said, “Find out whose son this young man is.”</p></li>
+<li><p>As soon as David returned from killing the Philistine, Abner took him and brought him before Saul, with David still holding the Philistine’s head.</p></li>
+<li><p>“Whose son are you, young man?” Saul asked him. David said, “I am the son of your servant Jesseo of Bethlehem.”</p></li>
+</ol>
+</div>
+<div id="section-14" class="section level4">
+<h4></h4>
+<h3>
+<strong>It’s In You</strong>
+</h3>
+<ul>
+<li><p>Often times to conquer it’s not a matter of figuring out what you need, but more of what you already have. In a consumer driven society we fall in the trap of always thinking we need more to do more, however, sometimes you can do more with what you already have.</p></li>
+<li><p>To conquer we must let go of blaming others for our short comings, become obedient, and do things to please God.</p></li>
+<li><p>David was anointed, he had salvation (he knew God), was humble, had a staff, 5 stones, and a sling. He refused the kings armor because he already had what he needed to defeat Goliath. Take a look around, you may find out that you already have what you need to defeat your giants.</p></li>
+</ul>
+</div>
+<div id="section-15" class="section level4">
+<h4></h4>
+<h3>
+<strong>Kingdom Way</strong>
+</h3>
+<ul>
+<li><p>David had a way with words, or maybe he had a way to invite God into the circumstance he was facing. David activated the promise of God in His fight with Goliath. “Today the philistines will know that there is a God in Israel”.</p></li>
+<li><p>God’s favor is constant because it’s a product of God’s love, and is amplified by righteousness, and pureness of heart.</p></li>
+<li><p>Ask God to surround you with people who have vision so that when you are low, you do not completely lose sight of your goals, and that God is for you not against you.</p></li>
+</ul>
+</div>
+<div id="section-16" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uuqeon2Nx6g?start=5491" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="day-5initiate-a-move-to-conquer" class="section level3 tabset tabset-pills tabset-fade color-tabs">
+<h3 class="tabset tabset-pills tabset-fade color-tabs">Day 5:Initiate A Move To Conquer</h3>
+<hr />
+<div id="section-17" class="section level4">
+<h4></h4>
+<h3>
+<strong>Scripture</strong>
+</h3>
+<p><strong>1 Samuel 14:1-17</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>One day Jonathan son of Saul said to his young armor-bearer, “Come, let’s go over to the Philistine outpost on the other side.” But he did not tell his father.</p></li>
+<li><p>Saul was staying on the outskirts of Gibeah under a pomegranate tree in Migron. With him were about six hundred men,</p></li>
+<li><p>among whom was Ahijah, who was wearing an ephod. He was a son of Ichabod’s brother Ahitub son of Phinehas, the son of Eli, the Lord’s priest in Shiloh. No one was aware that Jonathan had left.</p></li>
+<li><p>On each side of the pass that Jonathan intended to cross to reach the Philistine outpost was a cliff; one was called Bozez and the other Seneh.</p></li>
+<li><p>One cliff stood to the north toward Mikmash, the other to the south toward Geba.</p></li>
+<li><p>Jonathan said to his young armor-bearer, “Come, let’s go over to the outpost of those uncircumcised men. Perhaps the Lord will act in our behalf. Nothing can hinder the Lord from saving, whether by many or by few.”</p></li>
+<li><p>“Do all that you have in mind,” his armor-bearer said. “Go ahead; I am with you heart and soul.”</p></li>
+<li><p>Jonathan said, “Come on, then; we will cross over toward them and let them see us.</p></li>
+<li><p>If they say to us, ‘Wait there until we come to you,’ we will stay where we are and not go up to them.</p></li>
+<li><p>But if they say, ‘Come up to us,’ we will climb up, because that will be our sign that the Lord has given them into our hands.”</p></li>
+<li><p>So both of them showed themselves to the Philistine outpost. “Look!” said the Philistines. “The Hebrews are crawling out of the holes they were hiding in.”</p></li>
+<li><p>The men of the outpost shouted to Jonathan and his armor-bearer, “Come up to us and we’ll teach you a lesson.” So Jonathan said to his armor-bearer, “Climb up after me; the Lord has given them into the hand of Israel.”</p></li>
+<li><p>Jonathan climbed up, using his hands and feet, with his armor-bearer right behind him. The Philistines fell before Jonathan, and his armor-bearer followed and killed behind him.</p></li>
+<li><p>In that first attack Jonathan and his armor-bearer killed some twenty men in an area of about half an acre.</p></li>
+</ol>
+<p>Israel Routs the Philistines</p>
+<ol start="15" style="list-style-type: decimal">
+<li><p>Then panic struck the whole army—those in the camp and field, and those in the outposts and raiding parties—and the ground shook. It was a panic sent by God.</p></li>
+<li><p>Saul’s lookouts at Gibeah in Benjamin saw the army melting away in all directions.</p></li>
+<li><p>Then Saul said to the men who were with him, “Muster the forces and see who has left us.” When they did, it was Jonathan and his armor-bearer who were not there.</p></li>
+</ol>
+</div>
+<div id="section-18" class="section level4">
+<h4></h4>
+<h3>
+<strong>Fight By Faith</strong>
+</h3>
+<ul>
+<li><p>Faith is a reliable source to keep us going even when it seems as if we’re not winning.</p></li>
+<li><p>Faith renews our thoughts</p></li>
+<li><p>Faith is what we use when self thinks it’s all over</p></li>
+</ul>
+</div>
+<div id="section-19" class="section level4">
+<h4></h4>
+<h3>
+<strong>Get Out Of Hiding</strong>
+</h3>
+<ul>
+<li><p>God wants to fight for you</p></li>
+<li><p>God wants you to know who you are</p></li>
+<li><p>Know that the most precious time to exercise your faith is when you’re feeling discouraged, out numbered, and knowing that you’re not prepared</p></li>
+</ul>
+</div>
+<div id="section-20" class="section level4">
+<h4></h4>
+<h3>
+<strong>Video</strong>
+</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j8QYdm4mbAw?start=6458" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="other-content" class="section level3">
+<h3>Other Content</h3>
+<hr />
+<ul>
+<li><p>Like Our Page On <a href="https://www.facebook.com/nbnhchurchh">Facebook</a></p></li>
+<li><p>Follow Us On <a href="https://www.instagram.com/nbnhchurch/">Instagram</a></p></li>
+<li><p>Subscribe To Our <a href="https://www.youtube.com/channel/UCnJ8J2Py2yPHBZ42_EgM-Rw/videos">Youtube</a></p></li>
+</ul>
+<hr />
+<p>Join Us In Service On Sundays At 11:30am Online On YouTube Or In Person At <a href="https://goo.gl/maps/zEqTeSeUTucacoFx7">3321 Avenue I, Brooklyn NY 11210</a></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.005015946071!2d-73.94586834965841!3d40.62977135047868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244acc178ad61%3A0xa86518fbddee32ae!2s3321%20Avenue%20I%2C%20Brooklyn%2C%20NY%2011210!5e0!3m2!1sen!2sus!4v1618608302902!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy">
+</iframe>
+<hr />
+<center>
+<p>For more information Email us at <a href="mailto:nbnhmedia@gmail.com" class="email">nbnhmedia@gmail.com</a></p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
