@@ -13,6 +13,8 @@ navbar:
           href: Shout.html
         - text: "Conquer"
           href: Conquer.html
+        - text: "Wholeheartedly"
+          href: wholeheartedly.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:nbnhmedia@gmail.com

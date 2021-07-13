@@ -52,7 +52,7 @@ knitr::opts_chunk$set(
 
 # 
 
-![](./images/.jpg)
+![](./images/Relationship.jpg)
 
 
 
@@ -66,7 +66,7 @@ knitr::opts_chunk$set(
 ## Devotional Content {.tabset .tabset-pills}
 
 
-### Day 1:{.tabset .tabset-pills .tabset-fade .color-tabs}
+### Day 1: Stay Connected While You Serve {.tabset .tabset-pills .tabset-fade .color-tabs}
 
 ***
 
@@ -96,7 +96,7 @@ knitr::opts_chunk$set(
 
 
 
-### Day 2: {.tabset .tabset-pills .tabset-fade .color-tabs}
+### Day 2: Trust In The Relationship {.tabset .tabset-pills .tabset-fade .color-tabs}
 
 ***
 
