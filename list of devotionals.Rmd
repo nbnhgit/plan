@@ -4,7 +4,7 @@ title: "List"
 
 
 
-<h3><center>On this page will have a list of devotionals _(more will be add shortly)_
+
 
 | Series | Number of days | Average time per day |
 |:------------------- |:-- |:----:|

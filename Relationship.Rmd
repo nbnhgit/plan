@@ -179,29 +179,7 @@ knitr::opts_chunk$set(
 
 
 
-### Day 5:{.tabset .tabset-pills .tabset-fade .color-tabs}
 
-***
-
-####
-<h3>**Scripture**</h3>
-
-****
-
-
-####
-<h3>****</h3>
-
-
-
-
-####
-<h3>****</h3>
-
-
-
-####
-<h3>**Video**</h3>
 
 
 
