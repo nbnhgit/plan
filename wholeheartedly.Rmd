@@ -55,7 +55,7 @@ knitr::opts_chunk$set(
 ![](./images/wholeheartedly.jpeg)
 
 
-**In this series we hear a great collection of dynamic approaches to living life wholeheartedly. We learn how to be all in, how to gauge our passions, and how to stick to what God has called us to. We look forward to what God will do in you and what you will do for others living life wholeheartedly.**
+In this series we hear a great collection of dynamic approaches to living life wholeheartedly. We learn how to be all in, how to gauge our passions, and how to stick to what God has called us to. We look forward to what God will do in you and what you will do for others living life wholeheartedly.
 
 
 ```{r, out.width = "300px", ali}
