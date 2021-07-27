@@ -15,6 +15,9 @@ navbar:
           href: Conquer.html
         - text: "Wholeheartedly"
           href: Wholeheartedly.html
+        - text: "Relationship"
+          href: Relationship.html  
+          
   right:
     - icon: fa-envelope fa-lg
       href: mailto:nbnhmedia@gmail.com
