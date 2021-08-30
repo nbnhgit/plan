@@ -13,3 +13,4 @@ title: "List"
 | [Conquer](Conquer.html) | 5 | 15 min |
 | [Wholeheartedly](wholeheartedly.html) | 3 | 5 min |
 | [Relationship](Relationship.html) | 4 | 10 min |
+| [Excellence](Excellence.html) | 3 | 5 min |

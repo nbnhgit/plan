@@ -17,7 +17,8 @@ navbar:
           href: Wholeheartedly.html
         - text: "Relationship"
           href: Relationship.html  
-          
+        - text: "Excellence"
+          href: Excellence.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:nbnhmedia@gmail.com

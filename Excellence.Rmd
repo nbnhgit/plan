@@ -1,0 +1,272 @@
+---
+title: "Excellence"
+output: html_document
+---
+
+<style type="text/css">
+  
+/* Whole document: */
+body  { 
+  font-family: Arial Narrow;
+  font-size: 13pt;
+}
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 20pt;
+ }
+
+ 
+ @media screen and (min-width: 100px) and (max-width:768px) { 
+    .video iframe {height:200px}
+}
+ 
+ /* TAB COLORS */
+ 
+.color-tabs>.nav-pills>li:nth-child(1){
+           background: #e6f5ff;
+           font-color: #99d6ff;
+           }
+.color-tabs>.nav-pills>li:nth-child(2){
+        background:#e6f5ff;
+        }
+.color-tabs>.nav-pills>li:nth-child(3){
+        background:#e6f5ff;
+        font-color: #000000
+         }
+.color-tabs>.nav-pills>li:nth-child(4){
+       background:#e6f5ff;
+       }
+ 
+
+</style>
+
+```{r global chunk, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.width = 3,
+  fig.asp = .3,
+  out.width = "90%",
+  echo = F
+)
+```
+
+# 
+
+![](./images/Excellence.jpg)
+
+
+
+```{r, out.width = "300px", ali}
+
+# knitr::include_graphics("/Users/stevenlawrence/Downloads/nbnhyouthparty.jpg")
+
+```
+
+
+## Devotional Content {.tabset .tabset-pills}
+
+
+### Day 1:The Model Of Excellence {.tabset .tabset-pills .tabset-fade .color-tabs}
+
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+
+
+**Daniel 1:8 KJV**
+
+8. But Daniel purposed in his heart that he would not defile himself with the portion of the king's meat, nor with the wine which he drank: therefore he requested of the prince of the eunuchs that he might not defile himself.
+
+**Daniel 2:19 KJV**
+
+19. Then was the secret revealed unto Daniel in a night vision. Then Daniel blessed the God of heaven.
+
+**Daniel 5:11 KJV**
+
+11. There is a man in thy kingdom, in whom is the spirit of the holy gods; and in the days of thy father light and understanding and wisdom, like the wisdom of the gods, was found in him; whom the king Nebuchadnezzar thy father, the king, I say, thy father, made master of the magicians, astrologers, Chaldeans, and soothsayers;
+
+#### 
+<h3>**Identity**</h3>
+
+* Don't let your position cause you to compromise your identity
+
+* Make a choice to model PURITY as Daniel did.
+
+* Daniel refused to defile himself.
+
+* Daniel knew who he was and what was expected of him.
+
+
+
+#### 
+<h3>**Wisdom**</h3>
+
+ 
+* We too can model wisdom in truth.
+
+* Daniel was faced with a the threat of death,  he overcame with a word of WISDOM
+
+* Daniel reasoned with the king instead of trickery.
+
+#### 
+<h3>**Video**</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y4qoc3iI9_4?start=5755" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+### Day 2:I Am Change{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+
+**Exodus 2:11-25 KJV**
+
+11. And it came to pass in those days, when Moses was grown, that he went out unto his brethren, and looked on their burdens: and he spied an Egyptian smiting an Hebrew, one of his brethren.
+
+12. And he looked this way and that way, and when he saw that there was no man, he slew the Egyptian, and hid him in the sand.
+
+13. And when he went out the second day, behold, two men of the Hebrews strove together: and he said to him that did the wrong, Wherefore smitest thou thy fellow?
+
+14. And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou killedst the Egyptian? And Moses feared, and said, Surely this thing is known.
+
+15. Now when Pharaoh heard this thing, he sought to slay Moses. But Moses fled from the face of Pharaoh, and dwelt in the land of Midian: and he sat down by a well.
+
+16. Now the priest of Midian had seven daughters: and they came and drew water, and filled the troughs to water their father's flock.
+
+17. And the shepherds came and drove them away: but Moses stood up and helped them, and watered their flock.
+
+18. And when they came to Reuel their father, he said, How is it that ye are come so soon to day?
+
+19. And they said, An Egyptian delivered us out of the hand of the shepherds, and also drew water enough for us, and watered the flock.
+
+20. And he said unto his daughters, And where is he? why is it that ye have left the man? call him, that he may eat bread.
+
+21. And Moses was content to dwell with the man: and he gave Moses Zipporah his daughter.
+
+22. And she bare him a son, and he called his name Gershom: for he said, I have been a stranger in a strange land.
+
+23. And it came to pass in process of time, that the king of Egypt died: and the children of Israel sighed by reason of the bondage, and they cried, and their cry came up unto God by reason of the bondage.
+
+24. And God heard their groaning, and God remembered his covenant with Abraham, with Isaac, and with Jacob.
+
+25. And God looked upon the children of Israel, and God had respect unto them.
+
+**Exodus 3:1-10 KJV**
+
+1. Now Moses kept the flock of Jethro his father in law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb.
+
+2. And the angel of the Lord appeared unto him in a flame of fire out of the midst of a bush: and he looked, and, behold, the bush burned with fire, and the bush was not consumed.
+
+3. And Moses said, I will now turn aside, and see this great sight, why the bush is not burnt.
+
+4. And when the Lord saw that he turned aside to see, God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I.
+
+5. And he said, Draw not nigh hither: put off thy shoes from off thy feet, for the place whereon thou standest is holy ground.
+
+6. Moreover he said, I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob. And Moses hid his face; for he was afraid to look upon God.
+
+7. And the Lord said, I have surely seen the affliction of my people which are in Egypt, and have heard their cry by reason of their taskmasters; for I know their sorrows;
+
+8. And I am come down to deliver them out of the hand of the Egyptians, and to bring them up out of that land unto a good land and a large, unto a land flowing with milk and honey; unto the place of the Canaanites, and the Hittites, and the Amorites, and the Perizzites, and the Hivites, and the Jebusites.
+
+9. Now therefore, behold, the cry of the children of Israel is come unto me: and I have also seen the oppression wherewith the Egyptians oppress them.
+
+10. Come now therefore, and I will send thee unto Pharaoh, that thou mayest bring forth my people the children of Israel out of Egypt.
+
+#### 
+<h3>**Excellence is in the difference **</h3>
+
+* Whatever makes you different than everyone else is what will put you on the map of everyone else
+
+* Will you outshine in the places that you are in
+
+* Quit boosting the excellence of others and work on yours
+
+#### 
+<h3>**I Am The Change **</h3>
+
+* The series comes to challenge our character 
+
+* Is you character pointing others to Christ
+
+* Don’t be ok with not going down in history
+
+
+####
+<h3>**Video**</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vN2cAJcY6BE?start=4110" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+### Day 3: Up & Out{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+####
+<h3>**Scripture**</h3>
+
+**Joshua 10:12-14**
+
+12. On the day the Lord gave the Amorites over to Israel, Joshua said to the Lord in the presence of Israel:
+“Sun, stand still over Gibeon, and you, moon, over the Valley of Aijalon.”
+
+13. So the sun stood still, and the moon stopped, till the nation avenged itself on its enemies, as it is written in the Book of Jashar. The sun stopped in the middle of the sky and delayed going down about a full day. 
+
+14. There has never been a day like it before or since, a day when the Lord listened to a human being. Surely the Lord was fighting for Israel!
+
+
+
+
+####
+<h3>**The Way Out**</h3>
+
+* You must be delivered from the conclusion in order to deal with now
+
+* Worrying about the conclusion can cause unnecessary delay
+
+* Then you can deal with the giants so that you can have the strength and confidence to complete the task and reach fulfillment.
+
+####
+<h3>**Be Teachable**</h3>
+
+* If You’re not teachable you cannot conquer
+
+* Being teachable attracts mentors
+
+* Brings you to a place where you can be imparted too.
+
+
+####
+<h3>**Video**</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EanjLTOAdoM?start=4058" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ 
+
+
+
+### Other Content
+
+***
+
+- Like Our Page On [Facebook](https://www.facebook.com/nbnhchurchh)
+
+- Follow Us On [Instagram](https://www.instagram.com/nbnhchurch/)
+
+- Subscribe To Our [Youtube](https://www.youtube.com/channel/UCnJ8J2Py2yPHBZ42_EgM-Rw/videos)
+
+
+
+***
+
+Join Us In Service On Sundays At 11:30am Online On YouTube Or In Person At [3321 Avenue I, Brooklyn NY 11210](https://goo.gl/maps/zEqTeSeUTucacoFx7)
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.005015946071!2d-73.94586834965841!3d40.62977135047868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244acc178ad61%3A0xa86518fbddee32ae!2s3321%20Avenue%20I%2C%20Brooklyn%2C%20NY%2011210!5e0!3m2!1sen!2sus!4v1618608302902!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+***
+
+<center>For more information Email us at nbnhmedia@gmail.com
