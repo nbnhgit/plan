@@ -54,7 +54,7 @@ knitr::opts_chunk$set(
 
 ![](./images/Excellence.jpg)
 
-
+The topic of Excellence is both one that challenges our character but also informs us about opportunities for excellence to be born in us. We take on a perspective that really makes one look at them self and decide whether or not they are flowing in excellence and what can we change.  Jesus is the ultimate example, and the world is looking for that example of excellence in us.
 
 ```{r, out.width = "300px", ali}
 
