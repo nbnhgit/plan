@@ -1,0 +1,228 @@
+---
+title: "Lead"
+output: html_document
+---
+
+<style type="text/css">
+  
+/* Whole document: */
+body  { 
+  font-family: Arial Narrow;
+  font-size: 13pt;
+}
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 20pt;
+ }
+
+ 
+ @media screen and (min-width: 100px) and (max-width:768px) { 
+    .video iframe {height:200px}
+}
+ 
+ /* TAB COLORS */
+ 
+.color-tabs>.nav-pills>li:nth-child(1){
+           background: #e6f5ff;
+           font-color: #99d6ff;
+           }
+.color-tabs>.nav-pills>li:nth-child(2){
+        background:#e6f5ff;
+        }
+.color-tabs>.nav-pills>li:nth-child(3){
+        background:#e6f5ff;
+        font-color: #000000
+         }
+.color-tabs>.nav-pills>li:nth-child(4){
+       background:#e6f5ff;
+       }
+ 
+
+</style>
+
+```{r global chunk, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.width = 3,
+  fig.asp = .3,
+  out.width = "90%",
+  echo = F
+)
+```
+
+# 
+
+![](./images/.jpg)
+
+
+
+```{r, out.width = "300px", ali}
+
+# knitr::include_graphics("/Users/stevenlawrence/Downloads/nbnhyouthparty.jpg")
+
+```
+
+
+## Devotional Content {.tabset .tabset-pills}
+
+
+### Day 1: Lead From Where You Are{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+
+<h3>**Scripture**</h3>
+
+****
+
+
+
+
+#### 
+<h3>****</h3>
+
+
+
+
+#### 
+<h3>****</h3>
+
+ 
+
+#### 
+<h3>**Video**</h3>
+
+
+
+
+### Day 2: {.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+
+****
+
+
+
+#### 
+<h3>****</h3>
+
+
+
+#### 
+<h3>****</h3>
+
+ 
+ 
+
+####
+<h3>**Video**</h3>
+
+
+
+
+### Day 3: {.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+#### 
+<h3>**Scripture**</h3>
+
+****
+
+
+
+#### 
+<h3>****</h3>
+
+
+
+#### 
+<h3>****</h3>
+
+
+
+
+####
+<h3>**Video**</h3>
+
+
+
+
+### Day 4:{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+####
+<h3>**Scripture**</h3>
+
+****
+
+
+
+####
+<h3>****</h3>
+
+
+
+####
+<h3>****</h3>
+
+
+
+
+####
+<h3>**Video**</h3>
+
+
+
+### Day 5:{.tabset .tabset-pills .tabset-fade .color-tabs}
+
+***
+
+####
+<h3>**Scripture**</h3>
+
+****
+
+
+####
+<h3>****</h3>
+
+
+
+
+####
+<h3>****</h3>
+
+
+
+####
+<h3>**Video**</h3>
+
+
+
+### Other Content
+
+***
+
+- Like Our Page On [Facebook](https://www.facebook.com/nbnhchurchh)
+
+- Follow Us On [Instagram](https://www.instagram.com/nbnhchurch/)
+
+- Subscribe To Our [Youtube](https://www.youtube.com/channel/UCnJ8J2Py2yPHBZ42_EgM-Rw/videos)
+
+
+
+***
+
+Join Us In Service On Sundays At 11:30am Online On YouTube Or In Person At [3321 Avenue I, Brooklyn NY 11210](https://goo.gl/maps/zEqTeSeUTucacoFx7)
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.005015946071!2d-73.94586834965841!3d40.62977135047868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c244acc178ad61%3A0xa86518fbddee32ae!2s3321%20Avenue%20I%2C%20Brooklyn%2C%20NY%2011210!5e0!3m2!1sen!2sus!4v1618608302902!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+***
+
+<center>For more information Email us at nbnhmedia@gmail.com
