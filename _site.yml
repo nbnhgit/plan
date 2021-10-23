@@ -19,6 +19,8 @@ navbar:
           href: Relationship.html  
         - text: "Excellence"
           href: Excellence.html
+        - text: "Lead"
+          href: Lead.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:nbnhmedia@gmail.com
